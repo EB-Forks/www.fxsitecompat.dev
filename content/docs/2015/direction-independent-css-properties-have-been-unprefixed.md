@@ -1,5 +1,5 @@
 ---
-title: "Direction-independent CSS properies have been unprefixed"
+title: "Direction-independent CSS properties have been unprefixed"
 date: "2015-09-24T14:26:00-04:00"
 categories: ["css"]
 tags: []
@@ -7,6 +7,8 @@ releases: ["41", "45-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1138384"
       title: "Bug 1138384 - enable CSS writing-mode support in release channels"
+aliases:
+    - "/en-CA/docs/2015/direction-independent-css-properies-have-been-unprefixed/"
 ---
 As a part of the CSS3 Writing Modes implementation, various direction-independent CSS properties for `margin`, `border` and `padding`, that could be used to easier support <abbr title="Right-to-Left">RTL</abbr> languages like Arabic, have been unprefixed. Since the unprefixed properties are not just without `-moz-` as the table below shows, you should be careful when using these ones.
 
