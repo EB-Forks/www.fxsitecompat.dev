@@ -512,6 +512,10 @@
     vertical-align: .3em;
   }
 
+  body.single.article main article > header {
+    margin-bottom: 16px;
+  }
+
   body.single.article main article h1 ~ p {
     margin: 0;
     font-size: 14px;
