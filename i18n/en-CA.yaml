@@ -50,9 +50,9 @@ category_svg:
 status_affecting_label:
     other: "Affecting"
 status_affecting_description:
-    other: "A change made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
+    other: "A change made for standard compliance, security or performance. A couple of sites were broken, but those issues were or should be fixed by themselves."
 status_affecting_description_list:
-    other: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken but those issues were or should be fixed by themselves."
+    other: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken, but those issues were or should be fixed by themselves."
 status_postponed_label:
     other: "Postponed"
 status_postponed_description:
@@ -62,15 +62,15 @@ status_postponed_description_list:
 status_reverted_label:
     other: "Reverted"
 status_reverted_description:
-    other: "A change made for standard compliance, security or performance. Many sites were broken and therefore this change was reverted with a subsequent Firefox release."
+    other: "A change made for standard compliance, security or performance. Many sites were broken, and therefore this change was reverted with a subsequent Firefox release."
 status_reverted_description_list:
-    other: "This list contains changes made for standard compliance, security or performance. Many sites were broken and therefore those changes were reverted with a subsequent Firefox release."
+    other: "This list contains changes made for standard compliance, security or performance. Many sites were broken, and therefore those changes were reverted with a subsequent Firefox release."
 status_regressed_label:
     other: "Regressed"
 status_regressed_description:
-    other: "A site compatibility issue unintentionally introduced and later discovered. One or more sites were broken and therefore this regression was fixed with a subsequent Firefox release."
+    other: "A site compatibility issue unintentionally introduced and later discovered. One or more sites were broken, and therefore this regression was fixed with a subsequent Firefox release."
 status_regressed_description_list:
-    other: "This list contains site compatibility issues unintentionally introduced and later discovered. One or more sites were broken and therefore those regressions were fixed with a subsequent Firefox release. Note that some issues are not documented yet."
+    other: "This list contains site compatibility issues unintentionally introduced and later discovered. One or more sites were broken, and therefore those regressions were fixed with a subsequent Firefox release. Note that some issues are not documented yet."
 
 # Meta
 contentinfo_organization:
@@ -82,7 +82,7 @@ contentinfo_audienceType:
 contentinfo_tagline:
     other: "Together, We Build a Better Web"
 contentinfo_description:
-    other: "A community-driven Web developer engagement initiative focused on the backward compatibility and regressions in Firefox. Documents, latest updates & more."
+    other: "A community-driven Web developer engagement initiative focused on the backward compatibility in Firefox. Documents, tools, latest updates & more."
 contentinfo_legal:
     other: "Mozilla and Firefox are trademarks of the Mozilla Foundation. This initiative is not affiliated with Mozilla."
 contentinfo_contribute:
@@ -110,7 +110,7 @@ browse_all_releases:
 home_page_tagline:
     other: "<span>Together, We Build</span> <span>a Better Web</span>"
 home_page_description:
-    other: "A community-driven Web developer engagement initiative focused on the backward compatibility and regressions in Firefox. Documents, latest updates & more."
+    other: "A community-driven Web developer engagement initiative focused on the backward compatibility in Firefox. Documents, tools, latest updates & more."
 
 # All blog posts page
 all_posts_page_title:

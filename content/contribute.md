@@ -11,7 +11,7 @@ slug: "contribute"
 
 ## Test your site
 
-It is important to find and fix Firefox regressions before Firefox users visit your *broken* site. Mozilla is offering [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/), so please use this alpha version on a daily basis to develop and test your site or Web app.
+It is critical to find and fix Firefox regressions before Firefox users visit your *broken* site. Mozilla is offering [Firefox Developer Edition](https://www.mozilla.org/firefox/developer/), so please use this alpha version daily to develop and test your website or web application.
 
 ## Report issues
 

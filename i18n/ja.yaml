@@ -82,7 +82,7 @@ contentinfo_audienceType:
 contentinfo_tagline:
     other: "ともに、より良いウェブを築こう"
 contentinfo_description:
-    other: "Firefox の後方互換性とリグレッションに焦点を当てた、コミュニティ主導のウェブ開発者エンゲージメントイニシアチブ。ドキュメント、最新情報など。"
+    other: "Firefox の後方互換性に焦点を当てた、コミュニティ主導のウェブ開発者エンゲージメントイニシアチブ。ドキュメント、ツール、最新情報など。"
 contentinfo_legal:
     other: "Mozilla と Firefox は Mozilla Foundation の商標です。このイニシアチブは Mozilla とは無関係です。"
 contentinfo_contribute:
@@ -110,7 +110,7 @@ browse_all_releases:
 home_page_tagline:
     other: "<span>ともに、より良い</span><span>ウェブを築こう</span>"
 home_page_description:
-    other: "<span>Firefox の後方互換性とリグレッションに焦点を当てた、</span><span>コミュニティ主導のウェブ開発者エンゲージメントイニシアチブ。</span><span>ドキュメント、最新情報など。</span>"
+    other: "<span>Firefox の後方互換性に焦点を当てた、</span><span>コミュニティ主導のウェブ開発者</span><span>エンゲージメントイニシアチブ。</span><span>ドキュメント、ツール、最新情報など。</span>"
 
 # All blog posts page
 all_posts_page_title:
