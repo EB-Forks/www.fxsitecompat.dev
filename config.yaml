@@ -44,9 +44,6 @@ outputs:
     - "HTML"
     - "JSON"
 
-minify:
-  minifyOutput: true
-
 taxonomies:
     category: "categories"
     release: "releases"
