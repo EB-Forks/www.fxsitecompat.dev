@@ -44,6 +44,10 @@ outputs:
     - "HTML"
     - "JSON"
 
+minify:
+  minifyOutput: true
+  disableHTML: true
+
 taxonomies:
     category: "categories"
     release: "releases"
