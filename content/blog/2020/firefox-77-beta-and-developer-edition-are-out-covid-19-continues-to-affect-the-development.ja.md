@@ -4,7 +4,7 @@ date: "2020-05-05T22:59:00-04:00"
 ---
 Mozilla は今日 [Firefox 77 Beta と Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) を公開しました。
 
-COVID-19 の世界的流行により世界中でまだ多くの企業や個人が大きな課題に直面していることから、Firefox 開発者は [JPEG 画像の自動回転](https://www.fxsitecompat.dev/ja/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/) を除いて後方非互換な変更を含めることを避けました。これは少なくとも *Slack* に不具合をもたらすことが判明しているものの、Google も既に同じ改良を含んだ Chrome を提供しているため同じ問題が見られます。実際のところ、本稿執筆時点で `image-orientation` CSS プロパティへの変更はまだ Firefox 77 へ投入されていませんが、おそらく来週にはベータ版に入るものと思います。
+COVID-19 の世界的流行により世界中でまだ多くの企業や個人が大きな課題に直面していることから、Firefox 開発者は [JPEG 画像の自動回転](https://www.fxsitecompat.dev/ja/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/) を除いて後方非互換な変更を含めることを避けました。これは少なくとも *Slack* に不具合をもたらすことが判明しているものの、Google も既に同じ改良を含んだ Chrome を提供しているため同じ問題が見られます。<del>実際のところ、本稿執筆時点で `image-orientation` CSS プロパティへの変更はまだ Firefox 77 へ投入されていませんが、おそらく来週にはベータ版に入るものと思います。</del>
 
 [Application Cache ストレージの廃止](https://www.fxsitecompat.dev/ja/docs/2020/application-cache-storage-has-been-removed/) は当初 Firefox 77 で予定されていましたが、延期されました。
 
