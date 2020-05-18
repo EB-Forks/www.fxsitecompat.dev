@@ -8,6 +8,8 @@ COVID-19 の世界的流行により世界中でまだ多くの企業や個人�
 
 [Application Cache ストレージの廃止](https://www.fxsitecompat.dev/ja/docs/2020/application-cache-storage-has-been-removed/) は当初 Firefox 77 で予定されていましたが、延期されました。
 
+**更新**: 最近になって [もう 1 つの変更](https://www.fxsitecompat.dev/ja/docs/2020/text-exceeding-maxlength-will-no-longer-be-truncated-when-pasted-into-input-or-textarea/) を投稿しました。
+
 Firefox 77 に関しては以上です。
 
 今後のリリースについて言えば、Firefox 78 は次期法人向け [延長サポート版](https://support.mozilla.org/kb/choosing-firefox-update-channel) (ESR) となるため、互換性に影響を与える変更は再び避けられます。今後数週間のうちに、私たちは COVID-19 のために延期されているすべての変更を文書化していきます。それらは Firefox 79 あるいはそれ以降で投入されることとなります。

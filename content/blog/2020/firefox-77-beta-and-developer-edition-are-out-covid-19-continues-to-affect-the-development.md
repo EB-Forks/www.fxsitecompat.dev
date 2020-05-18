@@ -4,9 +4,11 @@ date: "2020-05-05T22:59:00-04:00"
 ---
 Mozilla shipped [Firefox 77 Beta and Developer Edition](https://www.mozilla.org/firefox/channel/desktop/) today.
 
-Since the COVID-19 pandemic is still creating huge challenges to many businesses and individuals around the world, Firefox developers have avoided including backward-incompatible changes other than [JPEG image auto rotation](https://www.fxsitecompat.dev/en-CA/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/), which is known to be affecting *Slack* and other sites, but Google Chrome has the same issue because they have already shipped the same enhancement. <del>Actually the change to the `image-orientation` CSS property has not landed in Firefox 77 at this writing — it will be probably coming to the Beta channel next week.</del>
+Since the COVID-19 pandemic is still creating huge challenges to many businesses and individuals around the world, Firefox developers have avoided including backward-incompatible changes other than [JPEG image auto-rotation](https://www.fxsitecompat.dev/en-CA/docs/2020/jpeg-images-are-now-rotated-by-default-according-to-exif-data/), which is known to be affecting *Slack* and other sites, but Google Chrome has the same issue because they have already shipped the same enhancement. <del>Actually, the change to the `image-orientation` CSS property has not landed in Firefox 77 at this writing — it will probably be coming to the Beta channel next week.</del>
 
-The [removal of Application Cache storage](https://www.fxsitecompat.dev/en-CA/docs/2020/application-cache-storage-has-been-removed/) was originally planned for Firefox 77 but postponed.
+The [removal of Application Cache storage](https://www.fxsitecompat.dev/en-CA/docs/2020/application-cache-storage-has-been-removed/) was initially planned for Firefox 77 but postponed.
+
+**Update**: There’s [one more change](https://www.fxsitecompat.dev/en-CA/docs/2020/text-exceeding-maxlength-will-no-longer-be-truncated-when-pasted-into-input-or-textarea/) posted recently.
 
 That’s it for Firefox 77.
 
