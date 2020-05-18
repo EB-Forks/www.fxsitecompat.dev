@@ -11,6 +11,8 @@ references:
       title: "Bug 888884 - :-moz-read-write pseudo-class shouldn't be applied on <input type=text disabled> and <textarea disabled>"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/3CguC7Mp3yQ/discussion"
       title: "Intent to ship: :read-only / :read-write pseudo-classes"
+supported_tools:
+  firefox_extension: true
 ---
 The [`:read-only`](https://developer.mozilla.org/docs/Web/CSS/:read-only) and [`:read-write`](https://developer.mozilla.org/docs/Web/CSS/:read-write) CSS pseudo-classes have become available in Firefox 78 and later. The prefixed `:-moz-read-only` and `:-moz-read-write` pseudo-classes remain as the aliases, but the support will be removed in the future.
 

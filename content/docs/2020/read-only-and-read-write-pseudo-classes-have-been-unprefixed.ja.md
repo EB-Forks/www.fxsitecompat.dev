@@ -11,6 +11,8 @@ references:
       title: "Bug 888884 - :-moz-read-write pseudo-class shouldn't be applied on <input type=text disabled> and <textarea disabled>"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/3CguC7Mp3yQ/discussion"
       title: "Intent to ship: :read-only / :read-write pseudo-classes"
+supported_tools:
+  firefox_extension: true
 ---
 [`:read-only`](https://developer.mozilla.org/docs/Web/CSS/:read-only)、[`:read-write`](https://developer.mozilla.org/docs/Web/CSS/:read-write) CSS 擬似クラスが Firefox 78 以降で使用可能となりました。接頭辞付きの `:-moz-read-only`、`:-moz-read-write` 擬似クラスはエイリアスとして残されますが、将来的に対応は廃止されます。
 
