@@ -4,7 +4,7 @@ date: "2012-12-03T03:50:54-05:00"
 categories: ["javascript"]
 tags: []
 releases: ["17"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=778851"
       title: "Bug 778851 – Turn javascript.options.xml.content off by default"

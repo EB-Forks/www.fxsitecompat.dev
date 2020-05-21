@@ -4,7 +4,7 @@ date: "2019-05-28T02:56:00-04:00"
 categories: ["audio-video", "privacy-security"]
 tags: []
 releases: ["68", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1335740"
       title: "Bug 1335740 - Disable getUserMedia on non-secure origins"

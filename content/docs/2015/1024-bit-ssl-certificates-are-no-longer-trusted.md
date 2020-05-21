@@ -4,7 +4,7 @@ date: "2015-02-27T04:21:22-05:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["38", "38-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=881553"
       title: "Bug 881553 - Remove or turn off trust bits for 1024-bit root certs after December 31, 2013"

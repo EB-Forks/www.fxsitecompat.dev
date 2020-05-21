@@ -4,7 +4,7 @@ date: "2018-02-23T19:19:00-05:00"
 categories: ["html", "javascript"]
 tags: []
 releases: ["59", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=867609"
       title: "Bug 867609 - Retire JavaScript versions"

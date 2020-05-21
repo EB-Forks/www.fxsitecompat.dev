@@ -4,7 +4,7 @@ date: "2019-02-18T18:55:00-05:00"
 categories: ["audio-video", "html"]
 tags: []
 releases: ["66", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1453862"
       title: "Bug 1453862 - Log to web console when autoplay blocked"

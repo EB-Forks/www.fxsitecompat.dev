@@ -4,7 +4,7 @@ date: "2012-12-03T03:53:26-05:00"
 categories: ["javascript"]
 tags: []
 releases: ["18", "24-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=789036"
       title: "Bug 789036 – Mootools 1.2.x was broken by String.prototype.contains"

@@ -4,7 +4,7 @@ date: "2018-08-31T04:03:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
 releases: ["63", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1476600"
       title: "Bug 1476600 - Mid from stopped transceiver is reused"

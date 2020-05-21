@@ -4,7 +4,7 @@ date: "2014-02-07T11:57:09-05:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["29", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=913734"
       title: "Bug 913734 – Remove domain policy goop from CAPS"

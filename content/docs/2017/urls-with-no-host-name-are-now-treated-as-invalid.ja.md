@@ -4,7 +4,7 @@ date: "2017-02-22T20:24:00-05:00"
 categories: ["html", "networking"]
 tags: []
 releases: ["54", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1275746"
       title: "Bug 1275746 - Don't allow empty host name for URLTYPE_AUTHORITY URLs"

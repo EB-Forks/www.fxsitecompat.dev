@@ -4,7 +4,7 @@ date: "2019-07-15T12:29:00-04:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["68", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://www.mozilla.org/en-US/security/advisories/mfsa2019-21/#CVE-2019-11730"
       title: "CVE-2019-11730: Same-origin policy treats all files in a directory as having the same-origin"

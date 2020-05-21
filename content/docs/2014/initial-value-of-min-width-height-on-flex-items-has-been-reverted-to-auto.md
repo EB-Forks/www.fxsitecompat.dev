@@ -4,7 +4,7 @@ date: "2014-09-01T22:12:15-04:00"
 categories: ["css"]
 tags: []
 releases: ["34", "38-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=984711"
       title: "Bug 984711 – Add back \"min-width:auto\" / \"min-height:auto\" for flex items"

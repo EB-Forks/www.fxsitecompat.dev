@@ -4,7 +4,7 @@ date: "2016-10-04T00:57:00-07:00"
 categories: ["plugins"]
 tags: []
 releases: ["52"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1269807"
       title: "Bug 1269807 - Remove support for all NPAPI plugins (except Flash)"

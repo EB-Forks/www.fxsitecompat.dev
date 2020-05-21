@@ -47,11 +47,11 @@ category_svg:
     other: "SVG"
 
 # Statuses:
-status_affecting_label:
-    other: "Affecting"
-status_affecting_description:
+status_breaking_label:
+    other: "Breaking"
+status_breaking_description:
     other: "A change made for standard compliance, security or performance. A couple of sites were broken, but those issues were or should be fixed by themselves."
-status_affecting_description_list:
+status_breaking_description_list:
     other: "This list contains changes made for standard compliance, security or performance. A couple of sites were broken, but those issues were or should be fixed by themselves."
 status_postponed_label:
     other: "Postponed"
@@ -136,7 +136,7 @@ all_categories_page_description:
 all_statuses_page_title:
     other: "Browse Documents by Status"
 all_statuses_page_description:
-    other: "Browse all our Firefox site compatibility documents by issue status, including Affecting, Regression and Reverted."
+    other: "Browse all our Firefox site compatibility documents by issue status, including Breaking, Regression and Reverted."
 
 # All releases page
 all_releases_page_title:

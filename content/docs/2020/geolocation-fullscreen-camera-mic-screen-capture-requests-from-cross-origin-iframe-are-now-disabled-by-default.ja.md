@@ -4,7 +4,7 @@ date: "2020-01-05T20:13:00-05:00"
 categories: ["audio-video", "dom", "privacy-security"]
 tags: []
 releases: ["74"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1483631"
       title: "Bug 1483631 - Restrict nested permission requests (camera/microphone/geolocation/screensharing) with Feature Policy"

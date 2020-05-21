@@ -4,7 +4,7 @@ date: "2016-09-15T22:39:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["51", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=599975"
       title: "Bug 599975 - Fire \"error\" event when img src is null or empty"

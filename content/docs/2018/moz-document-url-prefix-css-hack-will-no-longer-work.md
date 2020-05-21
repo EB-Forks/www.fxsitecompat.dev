@@ -4,7 +4,7 @@ date: "2018-06-05T17:57:00-04:00"
 categories: ["css", "privacy-security"]
 tags: []
 releases: ["future"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1449753"
       title: "Bug 1449753 - Turn off layout.css.moz-document.url-prefix-hack.enabled by default."

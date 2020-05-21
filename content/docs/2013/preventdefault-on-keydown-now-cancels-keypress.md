@@ -4,7 +4,7 @@ date: "2013-07-14T19:12:37-04:00"
 categories: ["dom"]
 tags: []
 releases: ["25", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=501496"
       title: "Bug 501496 – preventDefault on keydown does not cancel following keypress"

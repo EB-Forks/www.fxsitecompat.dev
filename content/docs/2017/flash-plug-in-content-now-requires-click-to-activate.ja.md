@@ -4,7 +4,7 @@ date: "2017-05-17T22:06:00-05:00"
 categories: ["plugins"]
 tags: []
 releases: ["55", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1317856"
       title: "Bug 1317856 - Make Flash plugin click-to-play (aka \"Ask to Activate\")"

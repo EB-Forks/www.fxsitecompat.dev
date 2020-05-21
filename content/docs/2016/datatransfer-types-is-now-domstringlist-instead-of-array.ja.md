@@ -4,7 +4,7 @@ date: "2016-12-16T02:13:00-05:00"
 categories: ["dom"]
 tags: []
 releases: ["52", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1298243"
       title: "Bug 1298243 - drag/drop: DataTransfer.types is wrong type"

@@ -4,7 +4,7 @@ date: "2020-02-17T13:56:00-05:00"
 categories: ["css"]
 tags: []
 releases: ["77"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1566316"
       title: "Bug 1566316 - HTMLImageElement naturalWidth/naturalHeight does not account for image orientation"

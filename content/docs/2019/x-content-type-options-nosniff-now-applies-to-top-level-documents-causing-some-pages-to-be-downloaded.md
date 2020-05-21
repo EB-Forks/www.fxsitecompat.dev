@@ -4,7 +4,7 @@ date: "2019-10-21T19:11:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
 releases: ["72"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1580607"
       title: "Bug 1580607 - Logout from Office365 causes download dialog box"

@@ -4,7 +4,7 @@ date: "2013-04-06T04:52:59-04:00"
 categories: ["dom"]
 tags: []
 releases: ["23", "24-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=691647"
       title: "Bug 691647 – clean up nsISidebar (remove window.sidebar.addPanel/addPersistentPanel)"

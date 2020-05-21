@@ -4,7 +4,7 @@ date: "2019-02-18T21:28:00-05:00"
 categories: ["misc"]
 tags: []
 releases: ["67", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=167475"
       title: "Bug 167475 - [URL] Disable external and returning no data protocol handlers in all cases, excluding <A HREF=>"

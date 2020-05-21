@@ -4,7 +4,7 @@ date: "2017-11-10T00:54:00-05:00"
 categories: ["dom", "html"]
 tags: []
 releases: ["56", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1366361"
       title: "Bug 1366361 - Make form.action return the actual form submission URL"

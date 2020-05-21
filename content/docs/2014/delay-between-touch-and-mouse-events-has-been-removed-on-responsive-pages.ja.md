@@ -4,7 +4,7 @@ date: "2014-03-21T04:50:04-04:00"
 categories: ["dom"]
 tags: []
 releases: ["30", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=941995"
       title: "Bug 941995 – Remove 300ms touch > mouse events delay for double-tap zoom on \"responsive\" pages"

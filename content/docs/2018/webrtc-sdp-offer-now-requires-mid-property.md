@@ -4,7 +4,7 @@ date: "2018-10-16T10:12:00-04:00"
 categories: ["audio-video"]
 tags: []
 releases: ["63", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1483338"
       title: "Bug 1483338 - Key media transports by a string id rather than level"

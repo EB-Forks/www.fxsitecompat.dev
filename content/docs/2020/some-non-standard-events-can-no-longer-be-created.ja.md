@@ -4,7 +4,7 @@ date: "2020-02-10T22:03:00-05:00"
 categories: ["dom"]
 tags: []
 releases: ["74"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1610819"
       title: "Bug 1610819 - Remove support for creating some non-standard event types"

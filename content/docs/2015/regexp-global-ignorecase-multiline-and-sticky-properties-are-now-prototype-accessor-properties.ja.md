@@ -4,7 +4,7 @@ date: "2015-02-27T04:21:22-05:00"
 categories: ["javascript"]
 tags: []
 releases: ["38", "38-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1120169"
       title: "Bug 1120169 - Implement RegExp.prototype.{global, ignoreCase, multiline, source, sticky, unicode}"

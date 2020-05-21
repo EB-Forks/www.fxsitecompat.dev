@@ -4,7 +4,7 @@ date: "2019-05-28T01:20:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["68", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=332175"
       title: "Bug 332175 - Drop XMLDocument.load() support"

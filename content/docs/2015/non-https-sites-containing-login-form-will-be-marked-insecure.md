@@ -4,7 +4,7 @@ date: "2015-10-21T14:38:00-07:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["46", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1188121"
       title: "Bug 1188121 - [userstory] CC: Warning for password on non-secure connection"

@@ -4,7 +4,7 @@ date: "2019-10-07T10:50:00-04:00"
 categories: ["html"]
 tags: []
 releases: ["70"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1563587"
       title: "Bug 1563587 - Make history navigations asynchronous"

@@ -4,7 +4,7 @@ date: "2014-12-19T11:15:21-05:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["36", "38-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=947149"
       title: "Bug 947149 – Connection information claims RC4 is \"high grade\""

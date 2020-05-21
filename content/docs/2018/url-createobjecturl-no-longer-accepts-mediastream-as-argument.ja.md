@@ -4,7 +4,7 @@ date: "2018-04-24T19:23:00-04:00"
 categories: ["audio-video", "dom"]
 tags: []
 releases: ["62", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1454889"
       title: "Bug 1454889 - Remove createObjectURL()'s MediaStream overload"

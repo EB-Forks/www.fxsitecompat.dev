@@ -4,7 +4,7 @@ date: "2015-06-13T15:20:46-04:00"
 categories: ["html"]
 tags: []
 releases: ["41", "45-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=366324"
       title: "Bug 366324 - SVG site icons (favicons, shortcut icons) support"

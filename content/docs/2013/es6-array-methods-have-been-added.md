@@ -4,7 +4,7 @@ date: "2013-07-14T19:12:37-04:00"
 categories: ["javascript"]
 tags: []
 releases: ["25", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=885553"
       title: "Bug 885553 – Implement ES6 Array.prototype.find and Array.prototype.findIndex"

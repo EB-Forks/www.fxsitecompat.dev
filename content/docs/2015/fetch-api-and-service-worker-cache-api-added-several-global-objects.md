@@ -4,7 +4,7 @@ date: "2015-03-17T14:02:59-04:00"
 categories: ["dom"]
 tags: []
 releases: ["39", "45-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1133861"
       title: "Bug 1133861 - Enable the Fetch API by default"

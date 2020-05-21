@@ -4,7 +4,7 @@ date: "2015-08-19T17:11:16-04:00"
 categories: ["html"]
 tags: []
 releases: ["40", "45-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1145439"
       title: "Bug 1145439 - Throttle off-screen iframes to be more efficient"

@@ -4,7 +4,7 @@ date: "2014-09-01T22:12:15-04:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["34", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1030963"
       title: "Bug 1030963 – (POODLE) Padding oracle attack on SSL 3.0"

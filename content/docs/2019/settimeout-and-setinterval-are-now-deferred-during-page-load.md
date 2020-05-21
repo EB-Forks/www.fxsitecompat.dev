@@ -4,7 +4,7 @@ date: "2019-02-18T17:08:00-05:00"
 categories: ["dom", "networking"]
 tags: []
 releases: ["66", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1270059"
       title: "Bug 1270059 - make setTimeout() low priority during page load"

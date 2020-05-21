@@ -4,7 +4,7 @@ date: "2019-10-09T23:17:00-04:00"
 categories: ["audio-video"]
 tags: []
 releases: ["72"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1225877"
       title: "Bug 1225877 - Parse latest a=simulcast and a=rid"

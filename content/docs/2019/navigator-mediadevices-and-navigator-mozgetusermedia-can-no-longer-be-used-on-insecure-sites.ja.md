@@ -4,7 +4,7 @@ date: "2019-07-06T20:43:00-04:00"
 categories: ["audio-video", "privacy-security"]
 tags: []
 releases: ["69"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1528031"
       title: "Bug 1528031 - Make navigator.mediaDevices SecureContext (removing it in http)"

@@ -4,7 +4,7 @@ date: "2018-05-08T16:17:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["62", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=453968"
       title: "Bug 453968 - Support IE extension Event.srcElement"

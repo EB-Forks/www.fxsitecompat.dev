@@ -4,7 +4,7 @@ date: "2016-11-17T20:01:00-05:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["50", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1268728"
       title: "Bug 1268728 - Remove ability to enable RC4"

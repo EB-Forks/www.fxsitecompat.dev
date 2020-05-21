@@ -4,7 +4,7 @@ date: "2019-11-11T20:16:00-05:00"
 categories: ["audio-video", "dom"]
 tags: []
 releases: ["72"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1524619"
       title: "Bug 1524619 - Require user gestures for push notifications"

@@ -4,7 +4,7 @@ date: "2016-04-30T11:13:00-04:00"
 categories: ["html"]
 tags: []
 releases: ["46", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1227906"
       title: "Bug 1227906 - HTML `pattern` attribute should set `u` flag for regular expressions"

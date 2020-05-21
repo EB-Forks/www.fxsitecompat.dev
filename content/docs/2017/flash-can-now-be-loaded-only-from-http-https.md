@@ -4,7 +4,7 @@ date: "2017-03-10T16:44:00-05:00"
 categories: ["plugins", "privacy-security"]
 tags: []
 releases: ["55", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1335475"
       title: "Bug 1335475 - Deny plugins from non-HTTP/HTTPS protocols"

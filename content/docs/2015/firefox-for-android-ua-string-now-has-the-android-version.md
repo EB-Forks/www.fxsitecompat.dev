@@ -4,7 +4,7 @@ date: "2015-06-13T15:20:46-04:00"
 categories: ["networking"]
 tags: []
 releases: ["41", "45-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1169772"
       title: "Bug 1169772 - Add Android version number to Fennec UA String"

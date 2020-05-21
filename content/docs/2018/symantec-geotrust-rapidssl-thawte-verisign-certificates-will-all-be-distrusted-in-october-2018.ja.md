@@ -4,7 +4,7 @@ date: "2018-06-05T12:53:00-04:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["64", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1460062"
       title: "Bug 1460062 - Enforce Symantec distrust in Firefox 63"

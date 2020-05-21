@@ -4,7 +4,7 @@ date: "2018-03-12T14:12:00-04:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["60", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1434300"
       title: "Bug 1434300 - Distrust Symantec CAs affected by the distrust plan"

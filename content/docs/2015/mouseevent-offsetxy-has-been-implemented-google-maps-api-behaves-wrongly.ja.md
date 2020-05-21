@@ -4,7 +4,7 @@ date: "2015-07-13T10:05:10-04:00"
 categories: ["dom"]
 tags: []
 releases: ["39", "45-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=69787"
       title: "Bug 69787 - Implement MSIE\'s event.offsetX, event.offsetY as mouse coordinates inside target element"

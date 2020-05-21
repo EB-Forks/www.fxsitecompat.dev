@@ -4,7 +4,7 @@ date: "2014-02-07T11:57:09-05:00"
 categories: ["html"]
 tags: []
 releases: ["29", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=344616"
       title: "Bug 344616 – Implement <input type=\"number\">"

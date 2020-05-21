@@ -4,7 +4,7 @@ date: "2016-06-10T20:23:00-04:00"
 categories: ["plugins"]
 tags: []
 releases: ["47", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1271398"
       title: "Bug 1271398 - [Regression] Problems with Adobe Flash Player Stage3D and Firefox x64 >=v47"

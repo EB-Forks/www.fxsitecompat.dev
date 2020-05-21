@@ -4,7 +4,7 @@ date: "2013-09-19T23:58:13-04:00"
 categories: ["dom"]
 tags: []
 releases: ["26", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912322"
       title: "Bug 912322 – document.getAnonymous* should not be available to web content"

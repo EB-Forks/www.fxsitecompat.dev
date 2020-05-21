@@ -28,7 +28,7 @@ RewriteRule ^(en-CA|ja)/categories/event-handling/?$ /$1/categories/dom/ [R=301,
 RewriteRule ^(en-CA|ja)/categories/(?:file-handling|mathml)/?$ /$1/categories/misc/ [R=301,L]
 
 # Obsolete status
-RewriteRule ^(en-CA|ja)/statuses/affected/?$ /$1/statuses/affecting/ [R=301,L]
+RewriteRule ^(en-CA|ja)/statuses/affect(ed|ing)/?$ /$1/statuses/breaking/ [R=301,L]
 
 # Redirect: Japanese
 RewriteCond %{HTTP:Accept-Language} ^ja

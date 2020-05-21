@@ -47,11 +47,11 @@ category_svg:
     other: "SVG"
 
 # Statuses
-status_affecting_label:
+status_breaking_label:
     other: "影響あり"
-status_affecting_description:
+status_breaking_description:
     other: "標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
-status_affecting_description_list:
+status_breaking_description_list:
     other: "このリストには、標準準拠、セキュリティもしくはパフォーマンス改善のために行われた変更が含まれます。少数のサイトに影響を及ぼしたものの、それらの問題はサイト側で修正されたか、されるべきです。"
 status_postponed_label:
     other: "延期"

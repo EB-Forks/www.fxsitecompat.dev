@@ -4,7 +4,7 @@ date: "2018-05-04T13:53:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["61", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1458883"
       title: "Bug 1458883 - Get rid of File.lastModifiedDate"

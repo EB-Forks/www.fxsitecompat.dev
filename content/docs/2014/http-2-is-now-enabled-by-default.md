@@ -4,7 +4,7 @@ date: "2014-09-01T22:12:15-04:00"
 categories: ["networking"]
 tags: []
 releases: ["34", "38-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1047594"
       title: "Bug 1047594 – Enable http/2 (and alpn) by default"

@@ -4,7 +4,7 @@ date: "2015-10-27T16:00:00-07:00"
 categories: ["networking", "privacy-security"]
 tags: []
 releases: ["future"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/GDSnSI9inOo/discussion"
       title: "Deprecate geolocation and getUserMedia() for unauthenticated origins"

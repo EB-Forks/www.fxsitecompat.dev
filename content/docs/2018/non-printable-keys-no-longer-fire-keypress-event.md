@@ -4,7 +4,7 @@ date: "2018-12-11T10:00:00-05:00"
 categories: ["dom"]
 tags: []
 releases: ["65", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=968056"
       title: "Bug 968056 - keypress event shouldn't be fired for non-printable keys"

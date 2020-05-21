@@ -4,7 +4,7 @@ date: "2016-05-10T10:34:00-04:00"
 categories: ["javascript"]
 tags: []
 releases: ["49", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1108382"
       title: "Bug 1108382 - Remove non-standard flag argument from String.prototype.{search,match,replace}"

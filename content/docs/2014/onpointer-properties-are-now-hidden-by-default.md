@@ -4,7 +4,7 @@ date: "2014-09-01T22:12:15-04:00"
 categories: ["dom"]
 tags: []
 releases: ["34", "38-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1017086"
       title: "Bug 1017086 – Don\'t expose onpointer* on global when dom.w3c_pointer_events.enabled is false"

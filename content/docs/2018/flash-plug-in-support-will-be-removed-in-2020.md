@@ -4,7 +4,7 @@ date: "2018-06-05T15:17:00-04:00"
 categories: ["plugins"]
 tags: []
 releases: ["future"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1455897"
       title: "Bug 1455897 - Remove support for the Flash plugin when Flash EOL's per the roadmap"

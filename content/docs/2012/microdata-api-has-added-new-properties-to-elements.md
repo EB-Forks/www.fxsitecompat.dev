@@ -4,7 +4,7 @@ date: "2012-10-15T06:00:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["16"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=591467"
       title: "Bug 591467 – Implement HTML Microdata API"

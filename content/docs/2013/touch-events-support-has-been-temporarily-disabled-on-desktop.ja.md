@@ -4,7 +4,7 @@ date: "2013-05-19T07:35:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["24", "24-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=888304"
       title: "Bug 888304 – Content touch-events on Firefox-desktop should be disabled until we can support them properly"

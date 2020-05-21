@@ -4,7 +4,7 @@ date: "2018-11-21T17:41:00-05:00"
 categories: ["css"]
 tags: []
 releases: ["65", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1453298"
       title: "Bug 1453298 - percentage text-indent should be relative to the containing block of the text, not the containing block of the block"

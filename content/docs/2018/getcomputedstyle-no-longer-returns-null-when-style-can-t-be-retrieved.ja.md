@@ -4,7 +4,7 @@ date: "2018-08-15T02:35:00-04:00"
 categories: ["css", "dom"]
 tags: []
 releases: ["62", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1467722"
       title: "Bug 1467722 - Don't return null from getComputedStyle when there's no presentation."

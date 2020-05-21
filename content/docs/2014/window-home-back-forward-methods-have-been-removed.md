@@ -4,7 +4,7 @@ date: "2014-04-03T19:31:02-04:00"
 categories: ["dom"]
 tags: []
 releases: ["31", "31-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1012944"
       title: "Bug 1012944 – User login and account creation on deezer.com broken since Firefox 30.0b1, say home.display is not a function"

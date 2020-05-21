@@ -4,7 +4,7 @@ date: "2018-01-24T10:37:00-05:00"
 categories: ["dom", "privacy-security"]
 tags: []
 releases: ["57", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1324406"
       title: "Bug 1324406 - Treat 'data:' documents as unique, opaque origins"

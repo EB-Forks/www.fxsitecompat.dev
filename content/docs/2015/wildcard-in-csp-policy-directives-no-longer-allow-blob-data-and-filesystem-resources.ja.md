@@ -4,7 +4,7 @@ date: "2015-04-27T13:17:23-04:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["40", "45-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1086999"
       title: "Bug 1086999 - CSP: Asterisk (*) wildcard should not allow blob:, data:, or filesystem: when matching source expressions"

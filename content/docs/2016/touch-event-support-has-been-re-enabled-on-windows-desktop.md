@@ -4,7 +4,7 @@ date: "2016-10-06T08:23:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["52", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=806805"
       title: "Bug 806805 - [meta] Mouse / touch input problems on Windows devices that support touch input"

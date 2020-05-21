@@ -4,7 +4,7 @@ date: "2017-04-05T08:46:00-04:00"
 categories: ["networking", "privacy-security"]
 tags: []
 releases: ["55", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1255139"
       title: "Bug 1255139 - iNotes not working after upgrade to release 45.0"

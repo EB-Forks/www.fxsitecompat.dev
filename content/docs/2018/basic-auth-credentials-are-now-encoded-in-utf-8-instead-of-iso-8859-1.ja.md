@@ -4,7 +4,7 @@ date: "2018-04-06T22:35:00-04:00"
 categories: ["networking"]
 tags: []
 releases: ["59", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1419658"
       title: "Bug 1419658 - Change Basic authentication request header username and password character encoding to UTF-8 (used to be ISO-8859-1)"

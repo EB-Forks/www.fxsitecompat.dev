@@ -4,7 +4,7 @@ date: "2018-12-24T19:40:00-05:00"
 categories: ["dom"]
 tags: []
 releases: ["66", "68-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=218415"
       title: "Bug 218415 - Request for window.event object added to DOM to ease cross browser scripting"

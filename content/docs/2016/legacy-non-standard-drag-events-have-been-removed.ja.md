@@ -4,7 +4,7 @@ date: "2016-07-13T14:30:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["50", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1162050"
       title: "Bug 1162050 - Remove draggesture and dragdrop events"

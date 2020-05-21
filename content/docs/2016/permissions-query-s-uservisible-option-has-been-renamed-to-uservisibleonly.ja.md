@@ -4,7 +4,7 @@ date: "2016-04-24T06:34:00-04:00"
 categories: ["dom"]
 tags: []
 releases: ["48", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1261405"
       title: "Bug 1261405 - PushPermissionDescriptor in Permissions.webidl is wrong ('userVisible' should be 'userVisibleOnly')"

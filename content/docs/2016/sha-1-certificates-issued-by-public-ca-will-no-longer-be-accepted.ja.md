@@ -4,7 +4,7 @@ date: "2016-10-24T13:13:00-04:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["52", "52-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1302140"
       title: "Bug 1302140 - add policy mode to completely disallow sha-1 signature except for certificates issued by non-built-in roots"

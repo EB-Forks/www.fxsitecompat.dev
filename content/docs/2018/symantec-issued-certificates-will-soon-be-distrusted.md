@@ -4,7 +4,7 @@ date: "2018-03-02T21:48:00-05:00"
 categories: ["privacy-security"]
 tags: []
 releases: ["58", "60-esr"]
-statuses: "affecting"
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1409259"
       title: "Bug 1409259 - Implement a console warning for Symantec CAs affected by the distrust plan"
