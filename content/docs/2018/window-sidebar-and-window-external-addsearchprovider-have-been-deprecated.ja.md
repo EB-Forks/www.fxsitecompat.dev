@@ -17,3 +17,5 @@ IE 由来の `window.external` オブジェクトは残されますが、最新�
 `<link rel="search">` を通じた [検索プラグインの自動検出](https://developer.mozilla.org/docs/Web/OpenSearch#Autodiscovery_of_search_plugins) を廃止する予定はなく、これがウェブサイト上で OpenSearch プラグインを提供するための推奨方法です。
 
 **更新**: Firefox 開発者が検索プロバイダーインストーラーの移行計画について検討中のため、Firefox 66 Nightly で `window.sidebar` とこれらのメソッドが再度有効化されました。
+
+**更新 2**: [Firefox 78](https://www.fxsitecompat.dev/ja/docs/2020/window-external-addsearchprovider-is-now-a-dummy-function/) で `AddSearchProvider` メソッドは再度 no-op となりました。

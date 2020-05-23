@@ -17,3 +17,5 @@ The IE-derived `window.external` object will remain, but the `AddSearchProvider`
 There is no plan to remove the [auto-discovery of search plug-ins](https://developer.mozilla.org/docs/Web/OpenSearch#Autodiscovery_of_search_plugins) via `<link rel="search">`, which is a recommended way to provide an OpenSearch plug-in on a website.
 
 **Update**: Firefox 66 Nightly has re-enabled `window.sidebar` and these methods as Firefox developers are thinking about a plan to migrate the search provider installer.
+
+**Update 2**: [Firefox 78](https://www.fxsitecompat.dev/en-CA/docs/2020/window-external-addsearchprovider-is-now-a-dummy-function/) has made the `AddSearchProvider` method no-op again.
