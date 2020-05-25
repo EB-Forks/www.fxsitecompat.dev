@@ -13,6 +13,8 @@ references:
       title: "Intent to unship: XUL display values from content pages"
 aliases:
     - "/en-CA/docs/2015/non-standard-css-display-types-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard, `-moz`-prefixed CSS [`display`](https://developer.mozilla.org/docs/Web/CSS/display) property values, originally intended for Mozilla application UI, are no longer available from web content. The standard [Flexible Box Layout](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout) or [Grid Layout](https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout) should be used instead.
 

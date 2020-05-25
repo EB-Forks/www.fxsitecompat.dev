@@ -17,6 +17,8 @@ aliases:
     - "/en-CA/docs/2015/moz-document-support-has-been-dropped/"
     - "/en-CA/docs/2015/moz-document-support-will-be-dropped/"
     - "/en-CA/docs/2018/moz-document-has-been-dropped/"
+supported_tools:
+  firefox_extension: true
 ---
 The [`@-moz-document`](https://developer.mozilla.org/docs/Web/CSS/@document) rule is no longer available from Web content since it could be used by attackers for CSS injection to steal private data in the URL of third-party sites. Firefox users are still able to use this rule in the user stylesheet to personalize their browsing experience.
 

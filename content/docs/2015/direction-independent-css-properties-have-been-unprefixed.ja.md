@@ -9,6 +9,8 @@ references:
       title: "Bug 1138384 - enable CSS writing-mode support in release channels"
 aliases:
     - "/ja/docs/2015/direction-independent-css-properies-have-been-unprefixed/"
+supported_tools:
+  firefox_extension: true
 ---
 CSS3 Writing Modes 実装の一環として、アラビア語など <abbr title="Right-to-Left">RTL</abbr> 言語への対応を容易にするために使用可能な、`margin`、`border`、`padding` のための方向に依存しない各種 CSS プロパティから接頭辞が外れました。以下の表が示す通り、接頭辞なしプロパティは単に `-moz-` を外したものではないため、これらを使う場合には注意が必要です。
 

@@ -9,6 +9,8 @@ references:
       title: "Bug 1417200 - Make -moz-border-*-colors chrome only"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/D23VvCJO53Q/discussion"
       title: "Intent to unship -moz-border-*-colors from content pages."
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 59 以降、以下の非標準ボーダー色プロパティはウェブコンテンツから使用できなくなりました。
 

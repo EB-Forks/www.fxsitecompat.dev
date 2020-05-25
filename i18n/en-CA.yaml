@@ -180,9 +180,9 @@ categories:
 description:
     other: "Description"
 tools:
-    other: "Tools"
+    other: "How can I test this?"
 tools_firefox_extension:
-    other: 'This can be tested with our <a href="https://addons.mozilla.org/firefox/addon/site-compatibility-tools/">Firefox Developer Tools extension</a>’s compatibilty checker.'
+    other: 'This change can be tested with the compatibilty checker in our <a href="https://addons.mozilla.org/firefox/addon/site-compatibility-tools/">Firefox Developer Tools extension</a>. Get it today!'
 references:
     other: "References"
 docs_for_release:

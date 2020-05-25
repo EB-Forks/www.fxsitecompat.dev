@@ -9,5 +9,7 @@ references:
       title: "Bug 1492739 - Consider unprefixing -moz-user-select"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/XfKl9Jt7ZQ8/discussion"
       title: "Intent to implement and ship: Unprefix -moz-user-select, unship mozilla-specific values."
+supported_tools:
+  firefox_extension: true
 ---
 The `user-select` CSS property has been unprefixed with Firefox 69 after the non-standard values were removed with [Firefox 65](https://www.fxsitecompat.dev/en-CA/docs/2018/non-standard-moz-user-select-values-have-been-removed/) except for `-moz-none`. The support for the prefixed `-moz-user-select` property may be removed in the future.

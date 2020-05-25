@@ -9,6 +9,8 @@ references:
       title: "Bug 1492958 - [css-ui] Unship -moz/webkit-user-select values not supported by other UAs / spec"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/XfKl9Jt7ZQ8/discussion"
       title: "Intent to implement and ship: Unprefix -moz-user-select, unship mozilla-specific values."
+supported_tools:
+  firefox_extension: true
 ---
 The following Firefox-specific values have been removed from the [`-moz-user-select`](https://developer.mozilla.org/docs/Web/CSS/user-select) CSS property and its `-webkit-user-select` alias:
 

@@ -11,6 +11,8 @@ references:
       title: "Bug 1471838 - Turn layout.css.offset-logical-properties.enabled off by default"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/mG6Wpz5C2PM/discussion"
       title: "Intent to deprecate and remove: offset-* logical properties."
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 63 has renamed the following logical properties according to the latest CSS Logical Properties and Values spec. Given that these are implemented only in Firefox and not yet widely used so far, this change has been made with no transition period.
 

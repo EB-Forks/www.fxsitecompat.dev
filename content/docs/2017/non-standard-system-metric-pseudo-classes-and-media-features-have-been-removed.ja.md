@@ -17,6 +17,8 @@ references:
       title: "Bug 1408839 - Hide some moz-scrollbar media features in content docs."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RVttfrQkXLU/discussion"
       title: "Intent to unship: :-moz-system-metric pseudo-class and media queries in content pages."
+supported_tools:
+  firefox_extension: true
 ---
 非標準の `moz` 接頭辞付きシステム測定擬似クラスとメディア特性がウェブコンテンツから使用できなくなりました。これらの CSS 拡張仕様はフィンガープリンティング目的で悪用される可能性があったためです。
 

@@ -13,6 +13,8 @@ references:
       title: "Intent to unship: XUL display values from content pages"
 aliases:
     - "/ja/docs/2015/non-standard-css-display-types-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 元々 Mozilla アプリケーション UI 向けに作られた、非標準の `-moz` 接頭辞付き CSS [`display`](https://developer.mozilla.org/docs/Web/CSS/display) プロパティ値がウェブコンテンツから使用できなくなりました。標準の [可変ボックスレイアウト](https://developer.mozilla.org/docs/Web/CSS/CSS_Flexible_Box_Layout) か [グリッドレイアウト](https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout) を代わりに使ってください。
 

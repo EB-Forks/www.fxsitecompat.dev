@@ -9,5 +9,7 @@ references:
       title: "Bug 1492739 - Consider unprefixing -moz-user-select"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/XfKl9Jt7ZQ8/discussion"
       title: "Intent to implement and ship: Unprefix -moz-user-select, unship mozilla-specific values."
+supported_tools:
+  firefox_extension: true
 ---
 [Firefox 65](https://www.fxsitecompat.dev/ja/docs/2018/non-standard-moz-user-select-values-have-been-removed/) で `-moz-none` を除く非標準の値が削除されたのに続いて、Firefox 69 で `user-select` CSS プロパティの接頭辞が外れました。接頭辞付き `-moz-user-select` プロパティへの対応は将来的に廃止される可能性があります。

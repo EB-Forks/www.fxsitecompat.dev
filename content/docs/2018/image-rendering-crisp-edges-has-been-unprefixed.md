@@ -9,5 +9,7 @@ references:
       title: "Bug 1496617 - Unprefix `image-rendering: crisp-edges`"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1503753"
       title: "Bug 1503753 - remove image-rendering:-moz-crisp-edges"
+supported_tools:
+  firefox_extension: true
 ---
 The `crisp-edges` value for the [`image-rendering`](https://developer.mozilla.org/docs/Web/CSS/image-rendering) CSS property has been unprefixed with Firefox 65. The support for `-moz-crisp-edges` will be removed in the future.

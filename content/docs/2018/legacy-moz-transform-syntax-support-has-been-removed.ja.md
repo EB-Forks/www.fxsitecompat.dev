@@ -9,6 +9,8 @@ references:
       title: "Bug 1438297 - Unship the legacy syntax for -moz-transform."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/T3PGm97MPNU/discussion"
       title: "Intent to unship: Legacy -moz-transform syntax."
+supported_tools:
+  firefox_extension: true
 ---
 Firefox はこれまで、`matrix(1, 2, 3, 4, 5px, 6%)` のように `matrix` や `matrix3d` 関数に長さやパーセントの使用を許容していた、`-moz-transform` CSS プロパティの旧式構文対応を維持してきました。Firefox 60 以降、こうした特別なケースは処理されなくなり、`-moz` 接頭辞付きプロパティは `-webkit-transform` と同様に標準 [`transform`](https://developer.mozilla.org/docs/Web/CSS/transform) プロパティの単なるエイリアスとなります。
 

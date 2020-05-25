@@ -9,6 +9,8 @@ references:
       title: "Bug 1207002 - Restrict MathML-related internal properties to only be accessible in UA sheets"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1211040"
       title: "Bug 1211040 - Restrict -moz-window-{dragging, shadow} to chrome only"
+supported_tools:
+  firefox_extension: true
 ---
 [MathML](https://developer.mozilla.org/docs/Web/MathML) やブラウザーテーマ向けに用意されている一部の内部 CSS プロパティがウェブコンテンツから使用できなくなりました。これらには `-moz-math-display`、`-moz-window-dragging`、[`-moz-window-shadow`](https://developer.mozilla.org/docs/Web/CSS/-moz-window-shadow) が含まれます。
 

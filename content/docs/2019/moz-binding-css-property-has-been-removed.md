@@ -9,5 +9,7 @@ references:
       title: "Bug 1523712 - Restrict parsing of -moz-binding to chrome and UA sheets."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/TR1_24OldK8/discussion"
       title: "Intent to unship: -moz-binding CSS property from content."
+supported_tools:
+  firefox_extension: true
 ---
 The `-moz-binding` CSS property, which was intended for internal use in Firefox to attach now-deprecated XML Binding Language (XBL) to an element, is no longer available from web content. It could be previously used for CSS hacks targeting Firefox on the web, but will be ignored on Firefox 67 and later.

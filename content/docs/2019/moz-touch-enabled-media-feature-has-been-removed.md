@@ -9,6 +9,8 @@ references:
       title: "Bug 1486964 - Drop -moz-touch-enabled"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/SPmSiWfn1Ts/discussion"
       title: "Intent to unship: @media (-moz-touch-enabled)"
+supported_tools:
+  firefox_extension: true
 ---
 The [`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) CSS media feature, deprecated since [Firefox 71](https://www.fxsitecompat.dev/en-CA/docs/2019/moz-touch-enabled-media-feature-has-been-deprecated/), has been removed from all channels with Firefox 73. The standard [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) have been supported since Firefox 64, and at least 1 site was known to be not scrollable in Firefox because of the *Modernizr* library's wrong detection using the non-standard media feature.
 

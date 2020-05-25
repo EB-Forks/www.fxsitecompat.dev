@@ -9,6 +9,8 @@ references:
       title: "Bug 1322780 - Unprefix min-content and max-content keywords"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vyCAurCC2DI/discussion"
       title: "Intent to ship: unprefixed max-content and min-content for css sizing properties"
+supported_tools:
+  firefox_extension: true
 ---
 The `min-content` and `max-content` keywords that can be used for CSS sizing properties such as `width`, `height` and `flex-basis` are now available unprefixed in Firefox 66 and later. Google Chrome has supported the unprefixed keywords since the version 46.
 

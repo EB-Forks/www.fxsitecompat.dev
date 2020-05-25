@@ -13,5 +13,7 @@ references:
       title: "Bug 1300896 - Remove prefixed ::-moz-placeholder pseudo-element and pseudo-class."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/ZdfheO1AXP0/discussion"
       title: "Intent to ship: CSS placeholder pseudo-element"
+supported_tools:
+  firefox_extension: true
 ---
 [`::placeholder`](https://developer.mozilla.org/docs/Web/CSS/::placeholder) CSS 擬似クラスの接頭辞が外されたため、[`::-moz-placeholder`](https://developer.mozilla.org/docs/Web/CSS/::-moz-placeholder) が廃止予定となりました。また、[Firefox 19 以降廃止予定となっている](https://www.fxsitecompat.dev/ja/docs/2012/moz-placeholder-pseudo-class-has-been-replaced-with-the-pseudo-element/)  [`:-moz-placeholder`](https://developer.mozilla.org/docs/Web/CSS/:-moz-placeholder) 擬似クラスの標準版として `:placeholder-shown` が追加されました。それぞれの接頭辞対応は将来的に廃止されます。

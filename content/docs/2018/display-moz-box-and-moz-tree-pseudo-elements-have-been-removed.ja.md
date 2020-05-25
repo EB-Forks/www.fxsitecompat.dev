@@ -11,6 +11,8 @@ references:
       title: "Intent to unship: display: -moz-box and display: -moz-inline-box from content pages."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/gbzTmE4uvJk/discussion"
       title: "Intent to unship: ::-moz-tree pseudo-elements."
+supported_tools:
+  firefox_extension: true
 ---
 [Firefox 63 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2018/display-moz-box-and-display-moz-inline-box-have-been-deprecated/) CSS `display` プロパティ用の非標準値、`-moz-box` と `-moz-inline-box`、また同じく [Firefox 63 以降廃止予定となっていた](https://www.fxsitecompat.dev/ja/docs/2018/moz-tree-pseudo-elements-have-been-deprecated/) 以下の非標準 CSS 疑似要素が、 Firefox 64 以降ウェブコンテンツから使用できなくなりました。
 

@@ -9,6 +9,8 @@ references:
       title: "Bug 1481125 - Tracking -moz-scrollbars-none when creating webcompat issues."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/rujif05uOTo/discussion"
       title: "Intent to unship: overflow: -moz-scrollbars-* values"
+supported_tools:
+  firefox_extension: true
 ---
 以下に挙げる非標準の接頭辞付き [`overflow`](https://developer.mozilla.org/docs/Web/CSS/overflow) CSS プロパティ値が、標準の値に置き換えられる形で、初期設定により無効化されました。
 

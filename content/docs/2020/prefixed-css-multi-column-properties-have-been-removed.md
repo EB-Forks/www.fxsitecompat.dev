@@ -11,6 +11,8 @@ references:
       title: "Intent to unship: -moz-prefixed multi-column properties and -moz-column-gap"
 aliases:
     - "/en-CA/docs/2016/prefixed-css3-multi-column-properties-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the following `-moz`-prefixed multi-column properties, deprecated since [Firefox 52](https://www.fxsitecompat.dev/en-CA/docs/2016/css3-multi-column-properties-have-been-unprefixed/), has been removed with Firefox 74. Use the standard, unprefixed equivalents instead.
 

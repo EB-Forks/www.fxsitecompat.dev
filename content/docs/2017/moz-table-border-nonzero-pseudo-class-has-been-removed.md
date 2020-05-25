@@ -9,5 +9,7 @@ references:
       title: "Bug 1341925 - Restrict :-moz-table-border-nonzero pseudo-class to UA stylesheet"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/jtdC_pUmCew/discussion"
       title: "Intent to unship: \"-moz-table-border-non-zero\" pseudo-class outside UA stylesheet"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard, undocumented `:-moz-table-border-nonzero` pseudo-class for the `<table>` element is no longer available to web content. An alternate selector will be `[border]:not([border="0"])`.

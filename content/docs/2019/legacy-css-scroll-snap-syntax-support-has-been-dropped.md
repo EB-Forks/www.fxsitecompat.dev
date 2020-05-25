@@ -11,6 +11,8 @@ references:
       title: "Bug 1544136 - Ship the new scroll snap"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/s0rMvOBnO_4/discussion"
       title: "Intent to implement and ship the CSS Scroll Snap Module Level 1 and unship old scroll snap properties"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 68 has implemented the [latest CSS Scroll Snap spec](https://drafts.csswg.org/css-scroll-snap-1/) that has been revised significantly since the [initial implementation](https://hacks.mozilla.org/2015/09/scroll-snapping-explained/) was shipped with Firefox 39. While Chrome and Safari have already added the support for the new syntax, the changes in Firefox are not backward-compatible:
 

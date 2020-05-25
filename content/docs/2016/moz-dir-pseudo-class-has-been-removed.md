@@ -9,5 +9,7 @@ references:
       title: "Bug 1270406 - remove pseudo class :-moz-dir after :dir is shipped"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/F0_UbXAfB_4/discussion"
       title: "Intent to ship: unprefix :dir pseudo-class"
+supported_tools:
+  firefox_extension: true
 ---
 The prefixed `:-moz-dir` pseudo-class, deprecated since [Firefox 49](https://www.fxsitecompat.dev/en-CA/docs/2016/dir-css-pseudo-class-has-been-unprefixed/), has been removed with Firefox 53. Use the standard, unprefixed [`:dir`](https://developer.mozilla.org/docs/Web/CSS/:dir) pseudo-class instead.

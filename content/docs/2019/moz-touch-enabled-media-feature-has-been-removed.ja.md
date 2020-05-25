@@ -9,6 +9,8 @@ references:
       title: "Bug 1486964 - Drop -moz-touch-enabled"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/SPmSiWfn1Ts/discussion"
       title: "Intent to unship: @media (-moz-touch-enabled)"
+supported_tools:
+  firefox_extension: true
 ---
 [Firefox 71](https://www.fxsitecompat.dev/ja/docs/2019/moz-touch-enabled-media-feature-has-been-deprecated/) 以降廃止予定となっていた [`-moz-touch-enabled`](https://developer.mozilla.org/docs/Web/CSS/@media/-moz-touch-enabled) CSS メディア特性が、Firefox 73 ですべてのチャンネルから削除されました。標準の [Interaction Media Features](https://drafts.csswg.org/mediaqueries-4/#mf-interaction) が Firefox 64 以降使用可能となっている上、この非標準メディア特性を用いた *Modernizr* ライブラリの誤判別により少なくとも 1 つのサイトが Firefox 上でスクロールできない問題が判明していました。
 

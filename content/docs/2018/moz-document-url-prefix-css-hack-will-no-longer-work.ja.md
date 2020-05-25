@@ -8,6 +8,8 @@ statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1449753"
       title: "Bug 1449753 - Turn off layout.css.moz-document.url-prefix-hack.enabled by default."
+supported_tools:
+  firefox_extension: true
 ---
 CSS インジェクション攻撃のリスクを軽減するため、[`@-moz-document`](https://developer.mozilla.org/docs/Web/CSS/@document) CSS アットルールは [Firefox 61 で無効化](https://www.fxsitecompat.dev/ja/docs/2018/moz-document-support-has-been-dropped-except-for-empty-url-prefix/) されましたが、空の `url-prefix` 関数は、[Firefox を対象とした CSS ハック](https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/) として使われていることが分かっているため、引き続きパースされています。
 

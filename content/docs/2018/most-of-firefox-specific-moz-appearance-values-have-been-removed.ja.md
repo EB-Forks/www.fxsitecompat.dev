@@ -9,6 +9,8 @@ references:
       title: "Bug 1496720 - [css-compat] Unship -moz/webkit-appearance values not supported by other UAs / spec"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/odBz2i8xnno/discussion"
       title: "Intent to unship: most -moz-appearance values not supported by other UAs / spec"
+supported_tools:
+  firefox_extension: true
 ---
 他のブラウザーが対応しておらず仕様で標準化もされていない [`-moz-appearance`](https://developer.mozilla.org/docs/Web/CSS/appearance) CSS プロパティ値の大半が Firefox 64 で削除されました。これらは主に、既に廃止予定となった [XUL](https://developer.mozilla.org/docs/Mozilla/Tech/XUL) で記述されている Firefox のユーザーインターフェイス内で使われることを想定したものでした。Firefox 63 以降 `-webkit-appearance` プロパティが `-moz-appearance` のエイリアスとして実装されていることから、今回の削除は `-webkit-appearance` にも影響します。
 

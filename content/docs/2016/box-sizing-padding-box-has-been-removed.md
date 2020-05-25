@@ -9,5 +9,7 @@ references:
       title: "Bug 1166728 - remove box-sizing: padding-box"
 aliases:
     - "/en-CA/docs/2015/box-sizing-padding-box-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The [`box-sizing`](https://developer.mozilla.org/docs/Web/CSS/box-sizing) CSS property no longer takes `padding-box` since the value has been removed from the spec. Use `border-box` instead.

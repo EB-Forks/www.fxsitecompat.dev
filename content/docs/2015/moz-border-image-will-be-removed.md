@@ -7,5 +7,7 @@ releases: ["future"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=845245"
       title: "Bug 845245 - Remove support for -moz-border-image"
+supported_tools:
+  firefox_extension: true
 ---
 The prefixed `-moz-border-image` property will be removed in the future in favour of the unprefixed [`border-image`](https://developer.mozilla.org/docs/Web/CSS/border-image) property available since Firefox 15.

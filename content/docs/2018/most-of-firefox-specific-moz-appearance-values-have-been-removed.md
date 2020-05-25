@@ -9,6 +9,8 @@ references:
       title: "Bug 1496720 - [css-compat] Unship -moz/webkit-appearance values not supported by other UAs / spec"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/odBz2i8xnno/discussion"
       title: "Intent to unship: most -moz-appearance values not supported by other UAs / spec"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 64 has removed the most of [`-moz-appearance`](https://developer.mozilla.org/docs/Web/CSS/appearance) CSS property values that are not supported by other browsers nor standardized in the spec. Those were mostly for internal use within the Firefox user interface written in now-deprecated [XUL](https://developer.mozilla.org/docs/Mozilla/Tech/XUL). Given that the `-webkit-appearance` property has been supported as an alias of `-moz-appearance` since Firefox 63, this removal affects `-webkit-appearance` as well.
 

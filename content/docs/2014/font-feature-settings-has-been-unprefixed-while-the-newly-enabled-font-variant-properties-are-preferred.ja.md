@@ -9,6 +9,8 @@ references:
       title: "Bug 835191 – Unprefix -moz-font-feature-settings"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=975744"
       title: "Bug 975744 – enable font-variant-* / font-feature in release by default"
+supported_tools:
+  firefox_extension: true
 ---
 CSS3 Fonts Module 仕様で定義された次のプロパティが初期設定で有効化されました。[`font-kerning`](https://developer.mozilla.org/docs/Web/CSS/font-kerning)、[`font-synthesis`](https://developer.mozilla.org/docs/Web/CSS/font-synthesis)、[`font-variant`](https://developer.mozilla.org/docs/Web/CSS/font-variant)、[`font-variant-alternates`](https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates)、[`font-variant-caps`](https://developer.mozilla.org/docs/Web/CSS/font-variant-caps)、[`font-variant-east-asian`](https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian)、[`font-variant-ligatures`](https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures)、[`font-variant-numeric`](https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric)、[`font-variant-position`](https://developer.mozilla.org/docs/Web/CSS/font-variant-position)
 

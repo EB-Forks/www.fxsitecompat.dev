@@ -7,6 +7,8 @@ releases: ["69"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1554150"
       title: "Bug 1554150 - Remove -webkit-appearance keywords that are removed in Chromium 75"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 69 以降、`-webkit-appearance` CSS プロパティとそのエイリアスである `-moz-appearance` 向けの一部キーワードがウェブコンテンツから使用できなくなりました。これは Chrome 75 での削除を受けた措置で、以下のキーワードが含まれます。
 

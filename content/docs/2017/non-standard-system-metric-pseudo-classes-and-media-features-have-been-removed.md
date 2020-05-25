@@ -17,6 +17,8 @@ references:
       title: "Bug 1408839 - Hide some moz-scrollbar media features in content docs."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RVttfrQkXLU/discussion"
       title: "Intent to unship: :-moz-system-metric pseudo-class and media queries in content pages."
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard, `moz`-prefixed system metric pseudo-classes and media features are no longer available from web content because those CSS extensions could be abused for fingerprinting purposes.
 

@@ -9,6 +9,8 @@ references:
       title: "Bug 1322780 - Unprefix min-content and max-content keywords"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vyCAurCC2DI/discussion"
       title: "Intent to ship: unprefixed max-content and min-content for css sizing properties"
+supported_tools:
+  firefox_extension: true
 ---
 `width`、`height` や `flex-basis` といった CSS サイズ関連プロパティに使用可能な `min-content`、`max-content` 両キーワードが Firefox 66 以降接頭辞なしで使用可能となりました。Google Chrome はバージョン 46 以降接頭辞なしのキーワードに対応しています。
 

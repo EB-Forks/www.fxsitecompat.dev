@@ -9,5 +9,7 @@ references:
       title: "Bug 1199529 - Remove :-moz-full-screen-ancestor pseudo-class selector"
 aliases:
     - "/en-CA/docs/2015/moz-full-screen-ancestor-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the [`:-moz-full-screen-ancestor`](https://developer.mozilla.org/docs/Web/CSS/:-moz-full-screen-ancestor) CSS pseudo-class has been removed since it's no longer a part of the spec.
