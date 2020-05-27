@@ -11,12 +11,15 @@ references:
       title: "Bug 1422245 - Toggle the pref to disable @-moz-document in content pages on release"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1446470"
       title: "Bug 1446470 - Parse @-moz-document url-prefix() on content."
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1449753"
+      title: "Bug 1449753 - Turn off layout.css.moz-document.url-prefix-hack.enabled by default."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/RysotXvooV0/discussion"
       title: "Intent to unship: @-moz-document from content pages."
 aliases:
     - "/ja/docs/2015/moz-document-support-has-been-dropped/"
     - "/ja/docs/2015/moz-document-support-will-be-dropped/"
     - "/ja/docs/2018/moz-document-has-been-dropped/"
+    - "/ja/docs/2018/moz-document-url-prefix-css-hack-will-no-longer-work/"
 supported_tools:
   firefox_extension: true
 ---
@@ -25,3 +28,14 @@ supported_tools:
 この @ 規則対応は Firefox 59 の時点で既に Nightly と早期 Beta/DevEdition から削除されており、Firefox 61 ですべてのチャンネルから削除されました。
 
 例外は、[Firefox を対象とした CSS ハック](https://css-tricks.com/snippets/css/css-hacks-targeting-firefox/) として使われてきた空の `url-prefix` 関数です。これは問題を避けるため Release チャンネルでは引き続きパースされますが、近い将来主な互換性問題が解決したら削除されます。
+
+```css
+/* これは Firefox でのみ動作します */
+@-moz-document url-prefix() {
+  #prices td {
+    height: 100%;
+  }
+}
+```
+
+**更新**: このハックは未だに様々な主要サイトで使われているため、Mozilla 開発者はこれを無効化しない決定を下しました。
