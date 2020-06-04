@@ -16,3 +16,5 @@ Some breaking changes are likely to be back with Firefox 79, as society is gradu
 * Making cookies `SameSite=Lax` by default
 
 Also, remember that the [Flash support will be removed](https://www.fxsitecompat.dev/en-CA/docs/2018/flash-plug-in-support-will-be-removed-in-2020/) by the end of the year. Be sure to plan ahead.
+
+**Update**: Mozilla is planning to disable TLS 1.0/1.1 in Firefox 78.

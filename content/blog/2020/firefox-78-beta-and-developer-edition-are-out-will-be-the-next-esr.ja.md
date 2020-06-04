@@ -16,3 +16,5 @@ Firefox 78 は次期 [延長サポート版](https://support.mozilla.org/kb/choo
 * Cookie の `SameSite=Lax` デフォルト採用
 
 また、年末までに [Flash 対応が廃止される](https://www.fxsitecompat.dev/ja/docs/2018/flash-plug-in-support-will-be-removed-in-2020/) ことも忘れないでください。必ず前もって計画を立てるようにしましょう。
+
+**更新**: Mozilla は Firefox 78 で TLS 1.0/1.1 を無効化する予定です。

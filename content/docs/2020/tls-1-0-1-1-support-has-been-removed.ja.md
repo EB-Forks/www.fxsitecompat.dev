@@ -3,8 +3,8 @@ title: "TLS 1.0/1.1 対応が廃止されました"
 date: "2020-01-08T19:23:00-05:00"
 categories: ["networking", "privacy-security"]
 tags: []
-releases: ["74"]
-statuses: "postponed"
+releases: ["78"]
+statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1606734"
       title: "Bug 1606734 - Disable TLS 1.0 and 1.1 by default"
@@ -14,6 +14,8 @@ references:
       title: "Bug 1623536 - Re-enable TLS 1.0 in Firefox 75 (Beta)"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1626495"
       title: "Bug 1626495 - Re-enable TLS 1.0 in Firefox 76 and 77 (Release)"
+    - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1643229"
+      title: "Bug 1643229 - Disable TLS 1.0 and 1.1 by default in Firefox 78"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/8EFRYDR3N1c/discussion"
       title: "Intent to unship: TLS 1.0 and TLS 1.1"
     - url: "https://hacks.mozilla.org/2019/05/tls-1-0-and-1-1-removal-update/"
@@ -26,3 +28,5 @@ references:
 **更新**: Mozilla は Firefox 74 と 75 Beta の TLS 1.0/1.1 対応を一時的に再有効化する方針です。設定変更は、既に公開されている Firefox 74 に対してはリモートで適用されます。これは、新型コロナウイルス (COVID-19) の流行を受けて、現在多くの人が在宅勤務を強いられオンラインツールに依存していますが、一部の重要な政府機関サイトがまだ TLS 1.2 に対応していないためです。また COVID-19 を理由として、Google が [TLS 1.0/1.1 対応を廃止](https://www.chromestatus.com/feature/5759116003770368) する予定となっていた [Chrome 81 の公開を延期](https://blog.chromium.org/2020/03/upcoming-chrome-releases.html) しています。状況が変わり次第このドキュメントを更新します。
 
 **更新 2**: COVID-19 の世界的大流行が続いており、TLS 1.0/1.1 は Firefox 76 と 77 でも有効のままとなります。
+
+**更新 3**: TLS 1.0/1.1 は 6 月 30 日公開の Firefox 78 で初期設定無効化されます。
