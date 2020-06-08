@@ -202,15 +202,25 @@
     white-space: nowrap;
   }
 
-  .status.prefix {
+  .status.prefix,
+  .checker.prefix {
     margin: 0 .2em 0 0;
-    border-radius: .2em;
-    padding: .2em .4em;
-    color: #FFF;
-    background-color: #D65A1A;
+    border: 2px solid #D65A1A;
+    border-radius: 4px;
+    padding: 2px 6px;
     font-size: .8em;
     vertical-align: .1em;
     cursor: default;
+  }
+
+  .status.prefix {
+    color: #FFF;
+    background-color: #D65A1A;
+  }
+
+  .checker.prefix {
+    color: #D65A1A;
+    background-color: #FFF;
   }
 
   .inner {

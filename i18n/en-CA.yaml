@@ -72,6 +72,12 @@ status_regressed_description:
 status_regressed_description_list:
     other: "This list contains site compatibility issues unintentionally introduced and later discovered. One or more sites were broken, and therefore those regressions were fixed with a subsequent Firefox release. Note that some issues are not documented yet."
 
+# Checker
+checker_supported_label:
+    other: Testable
+checker_supported_description:
+    other: This change can be tested with the compatibilty checker in our Firefox Developer Tools extension.
+
 # Meta
 contentinfo_organization:
     other: "<span>Firefox Site Compatibility</span> <span>Working Group</span>"

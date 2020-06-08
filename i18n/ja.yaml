@@ -72,6 +72,12 @@ status_regressed_description:
 status_regressed_description_list:
     other: "このリストには、意図せず取り込まれ後日発見されたサイト互換性問題が含まれます。ひとつもしくは複数のサイトに影響を及ぼしたため、これらのリグレッションは Firefox の後継リリースで修正されました。なお、一部の問題はまだ文書化されていません。"
 
+# Checker
+checker_supported_label:
+    other: テスト可
+checker_supported_description:
+    other: この変更は当プロジェクト提供の Firefox 開発者ツール拡張機能</a> に含まれている互換性チェッカーでテスト可能です。
+
 # Meta
 contentinfo_organization:
     other: "<span>Firefox サイト互換性</span><span>ワーキンググループ</span>"

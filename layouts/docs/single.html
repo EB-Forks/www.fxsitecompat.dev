@@ -73,7 +73,13 @@
             {{- end -}}
           </h2>
           <ul>{{ range $.Site.RegularPages }}{{ if in .Params.releases $version }}
-            <li>{{ partial "status-label/prefix-em" . }}<a href="{{ partial "link/relative" . }}">{{ .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML }}</a></li>{{ end }}{{ end }}
+            <li>
+              {{ partial "status-label/prefix-em" . }}
+              {{ partial "checker-label/prefix-em" . }}
+              <a href="{{ partial "link/relative" . }}">
+                {{- .Title | markdownify | replaceRE "([a-z])([A-Z\\.])" "$1<wbr>$2" | safeHTML -}}
+              </a>
+            </li>{{ end }}{{ end }}
           </ul>
         </nav>
       </div>
