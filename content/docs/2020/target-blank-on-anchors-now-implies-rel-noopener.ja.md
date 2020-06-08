@@ -11,6 +11,8 @@ references:
       title: "Bug 1522083 - Make target=_blank on a/area elements imply rel=noopener by default"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/DDQP5xIKYiY/discussion"
       title: "Intent to ship: implicit ref=noopener for target=_blank on anchor and area elements"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 79 以降、`target="_blank"` を伴った `<a>` や `<area>` 要素は、[現行の HTML 仕様](https://github.com/whatwg/html/issues/4078) に従い、`rel` 属性が設定されていない限り暗黙的に `rel="noopener"` を適用します。[`noopener`](https://developer.mozilla.org/docs/Web/HTML/Link_types/noopener) リンクタイプは新たに開かれたウィンドウ内の [`window.opener`](https://developer.mozilla.org/docs/Web/API/Window/opener) を `null` とすることで、この DOM プロパティが信頼できない第三者のサイトによって悪用されるのを防ぎます。必要な場合は、`rel="opener"` を明示的に設定することで挙動を反転させられます。
 
