@@ -9,3 +9,5 @@ references:
       title: "Bug 1164981 - Add MouseEvent.movementX/Y"
 ---
 The [`MouseEvent.movementX`](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementX) and [`MouseEvent.movementY`](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementY) properties have been unprefixed. The `moz`-prefixed properties will be removed in the future.
+
+**Update**: These properties have been removed with [Firefox 50](https://www.fxsitecompat.dev/en-CA/docs/2016/prefixed-pointer-lock-api-has-been-removed/).

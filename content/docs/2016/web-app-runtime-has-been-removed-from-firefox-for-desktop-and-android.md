@@ -1,7 +1,7 @@
 ---
 title: "Web App Runtime has been removed from Firefox for desktop and Android"
 date: "2016-02-09T08:19:00-05:00"
-categories: ["misc"]
+categories: ["dom", "misc"]
 tags: []
 releases: ["47", "52-esr"]
 references:
@@ -18,7 +18,7 @@ references:
 aliases:
     - "/en-CA/docs/2016/web-app-runtime-will-be-removed-from-firefox-for-desktop-and-android/"
 ---
-The non-standard [Open Web Apps JavaScript API](https://developer.mozilla.org/Apps/Build/JavaScript_API) and [Web App Runtime](https://developer.mozilla.org/Apps/Build/Architecture), that allowed Web applications to be installed and run on the user's device like native applications, have been removed from Firefox 47 for [desktop](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_desktop) and [Android](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_android).
+The non-standard `navigator.mozApps` [Open Web Apps JavaScript API](https://developer.mozilla.org/Apps/Build/JavaScript_API) and [Web App Runtime](https://developer.mozilla.org/Apps/Build/Architecture), that allowed Web applications to be installed and run on the user's device like native applications, have been removed from Firefox 47 for [desktop](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_desktop) and [Android](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_android).
 
 Those functionalities were invented by Mozilla Labs in 2011 then became an integral part of [Firefox OS](https://developer.mozilla.org/Apps/Build/Building_apps_for_Firefox_OS) built on modern Web technologies. However, the runtime has not been widely used and actively developed on other platforms.
 

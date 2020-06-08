@@ -9,3 +9,5 @@ references:
       title: "Bug 1164981 - Add MouseEvent.movementX/Y"
 ---
 [`MouseEvent.movementX`](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementX)、[`MouseEvent.movementY`](https://developer.mozilla.org/docs/Web/API/MouseEvent/movementY) 両プロパティの接頭辞が外れました。`moz` 接頭辞付きプロパティは将来的に削除されます。
+
+**更新**: これらのプロパティは [Firefox 50](https://www.fxsitecompat.dev/ja/docs/2016/prefixed-pointer-lock-api-has-been-removed/) で廃止されました。

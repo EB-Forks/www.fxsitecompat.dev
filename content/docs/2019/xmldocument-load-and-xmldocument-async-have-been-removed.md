@@ -3,7 +3,7 @@ title: "`XMLDocument.load()` and `XMLDocument.async` have been removed"
 date: "2019-05-28T01:20:00-04:00"
 categories: ["dom"]
 tags: []
-releases: ["68", "68-esr"]
+releases: ["68"]
 statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=332175"

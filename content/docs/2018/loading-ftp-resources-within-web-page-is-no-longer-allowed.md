@@ -1,7 +1,7 @@
 ---
 title: "Loading FTP resources within web page is no longer allowed"
 date: "2018-04-06T20:32:00-04:00"
-categories: ["dom", "privacy-security"]
+categories: ["html", "privacy-security"]
 tags: []
 releases: ["61", "68-esr"]
 references:

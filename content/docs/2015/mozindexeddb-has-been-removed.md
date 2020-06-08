@@ -8,4 +8,4 @@ references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=975699"
       title: "Bug 975699 – Remove mozIndexedDB again"
 ---
-The `mozIndexedDB` property, preserved for a [compatibility reason](https://bugzilla.mozilla.org/show_bug.cgi?id=770844), has finally been removed from `window` in favour of the standard [`indexedDB`](https://developer.mozilla.org/docs/Web/API/IDBEnvironment/indexedDB) property.
+The `mozIndexedDB` object, unprefixed with [Firefox 16](https://www.fxsitecompat.dev/en-CA/docs/2012/several-apis-have-been-unprefixed/) but preserved for a [compatibility reason](https://bugzilla.mozilla.org/show_bug.cgi?id=770844), has finally been removed from `window` in favour of the standard [`indexedDB`](https://developer.mozilla.org/docs/Web/API/IDBEnvironment/indexedDB) property.

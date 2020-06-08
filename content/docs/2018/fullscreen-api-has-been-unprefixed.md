@@ -1,7 +1,7 @@
 ---
 title: "Fullscreen API has been unprefixed"
 date: "2018-09-23T00:24:00-04:00"
-categories: ["dom"]
+categories: ["css", "dom"]
 tags: []
 releases: ["64", "68-esr"]
 references:

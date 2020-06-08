@@ -1,7 +1,7 @@
 ---
 title: "トップレベルウィンドウ上のデータ URL 遷移はブロックされるようになりました"
 date: "2017-11-15T10:31:00-05:00"
-categories: ["dom", "privacy-security"]
+categories: ["dom", "html", "privacy-security"]
 tags: []
 releases: ["59", "60-esr"]
 references:

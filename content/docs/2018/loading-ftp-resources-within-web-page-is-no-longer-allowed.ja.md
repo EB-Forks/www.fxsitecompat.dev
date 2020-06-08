@@ -1,7 +1,7 @@
 ---
 title: "ウェブページ内での FTP リソースの読み込みが許容されなくなりました"
 date: "2018-04-06T20:32:00-04:00"
-categories: ["dom", "privacy-security"]
+categories: ["html", "privacy-security"]
 tags: []
 releases: ["61", "68-esr"]
 references:
