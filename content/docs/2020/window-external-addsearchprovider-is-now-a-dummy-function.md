@@ -9,6 +9,8 @@ references:
       title: "Bug 1632447 - Disable window.{external|sidebar}.AddSearchProvider by preference"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vSV-gg5621k/discussion"
       title: "Intent to unship: window.external.AddSearchProvider"
+supported_tools:
+  firefox_extension: true
 ---
 Starting with Firefox 78, `window.external.AddSearchProvider` and the alias `window.sidebar.AddSearchProvider` will be dummy functions that do nothing, according to the [HTML spec](https://html.spec.whatwg.org/multipage/obsolete.html#external). The Internet Explorer-derived legacy method had been deprecated since [Firefox 65](https://www.fxsitecompat.dev/en-CA/docs/2018/window-sidebar-and-window-external-addsearchprovider-have-been-deprecated/). Google made it no-op with [Chrome 54](https://www.chromestatus.com/feature/5672001305837568) in October 2016, and no other modern browsers support it.
 

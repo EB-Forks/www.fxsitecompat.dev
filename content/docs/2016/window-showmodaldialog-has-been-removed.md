@@ -14,6 +14,8 @@ references:
       title: "Intent to unship: window.showModalDialog"
 aliases:
     - "/en-CA/docs/2015/window-showmodaldialog-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The legacy [`window.showModalDialog`](https://developer.mozilla.org/docs/Web/API/Window/showModalDialog) method, [deprecated since Firefox 28](https://www.fxsitecompat.dev/en-CA/docs/2013/showmodaldialog-has-been-deprecated/) and [disabled since Firefox 46](https://www.fxsitecompat.dev/en-CA/docs/2015/showmodaldialog-has-been-disabled-in-multi-process-firefox/) when the browser is running in the multi-process mode dubbed *e10s*, is no longer available on Firefox 48 and later as *e10s* has been enabled by default.
 

@@ -9,5 +9,7 @@ references:
       title: "Bug 1165211 - Deprecate MouseEvent.mozPressure"
 aliases:
     - "/en-CA/docs/2015/mouseevent-mozpressure-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The `mozPressure` property on the `MouseEvent` interface is now deprecated and will be removed in the near future. Firefox 68 will show a deprecation warning in the console when the property is found on a page. Use the standard [`PointerEvent.pressure`](https://developer.mozilla.org/docs/Web/API/PointerEvent/pressure) property instead, which is part of the Pointer Events API available since Firefox 59.

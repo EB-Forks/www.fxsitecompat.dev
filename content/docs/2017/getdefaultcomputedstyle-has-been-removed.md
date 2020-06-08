@@ -10,6 +10,8 @@ references:
       title: "Bug 1355683 - Consider removing getDefaultComputedStyle"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/dGDkR65Ffa4/discussion"
       title: "Intent to unship: Window.getDefaultComputedStyle"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard [`window.getDefaultComputedStyle`](https://developer.mozilla.org/docs/Web/API/Window/getDefaultComputedStyle) method, that returns the browser's default computed values on an element, has been removed with Firefox 55. Unlike the similar [`getComputedStyle`](https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle) method, it has never been standardized as part of the CSSOM spec nor implemented in other browsers.
 

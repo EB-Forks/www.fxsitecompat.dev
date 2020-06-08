@@ -9,5 +9,7 @@ references:
       title: "Bug 1455940 - Remove constructor from SVGNumber"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/1jEXK-Ctbng/discussion"
       title: "Intent to unship constructors on SVGNumber"
+supported_tools:
+  firefox_extension: true
 ---
 The constructor on the [`SVGNumber`](https://developer.mozilla.org/docs/Web/API/SVGNumber) interface has been removed with Firefox 61, because it was not part of the SVG spec and also not implemented in any other browser. Calling `new SVGNumber()` will throw a `TypeError` from now on.

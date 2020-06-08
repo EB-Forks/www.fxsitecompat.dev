@@ -9,5 +9,7 @@ references:
       title: "Bug 1560119 - Remove DOMMatrix.prototype.scaleNonUniformSelf()"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/r4B80kbt3FA/discussion"
       title: "Intent to unship: DOMMatrix.prototoype.scaleNonUniformSelf()"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 69 で `DOMMatrix` インターフェイスから `scaleNonUniformSelf` メソッドが削除されました。遡ること 2016 年に Geometry Interfaces 仕様がこのメソッドを `scaleSelf` に改名したたためです。今後はこのより新しいメソッドを使用してください。

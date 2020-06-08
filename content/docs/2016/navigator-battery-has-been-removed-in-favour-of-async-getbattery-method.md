@@ -7,6 +7,8 @@ releases: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1259335"
       title: "Bug 1259335 - Remove deprecated navigator.battery API"
+supported_tools:
+  firefox_extension: true
 ---
 The [`navigator.battery`](https://developer.mozilla.org/docs/Web/API/Navigator/battery) property, [deprecated since Firefox 43](https://www.fxsitecompat.dev/en-CA/docs/2015/navigator-battery-has-been-deprecated-in-favour-of-async-getbattery-method/), has been removed with Firefox 50. Instead, use the standardized [`navigator.getBattery`](https://developer.mozilla.org/docs/Web/API/Navigator/getBattery) method that returns a `Promise` resolved in a [`BatteryManager`](https://developer.mozilla.org/docs/Web/API/BatteryManager) instance.
 

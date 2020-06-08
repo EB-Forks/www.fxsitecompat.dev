@@ -7,6 +7,8 @@ releases: ["61", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1457166"
       title: "Bug 1457166 - Figure out what's the right target of the online / offline events."
+supported_tools:
+  firefox_extension: true
 ---
 従来、[`online` および `offline` イベント](https://developer.mozilla.org/docs/Web/API/NavigatorOnLine/Online_and_offline_events) は `document.body` 上で発生し、`document` と `window` へ浮上していましたが、これは現行の HTML 仕様によれば誤りでした。Firefox 61 でこの非標準の挙動が修正され、それらのイベントは `window` 上でのみ発生するようになりました。なお、`<body>` 要素上の `ononline` および `onoffline` 属性は有効であり、引き続き使用可能です。
 

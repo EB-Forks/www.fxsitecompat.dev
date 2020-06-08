@@ -9,6 +9,8 @@ references:
       title: "Bug 1462308 - Disable devicelight, deviceproximity and userproximity events from stable"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/DcSi_wLG4fc/discussion"
       title: "Intent to remove Ambient Light and Proximity sensor APIs"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the [Ambient Light Sensor](https://developer.mozilla.org/docs/Web/API/Ambient_Light_Events) and [Proximity Sensor](https://developer.mozilla.org/docs/Web/API/Proximity_Events) APIs, the [`devicelight`](https://developer.mozilla.org/docs/Web/Events/devicelight), [`deviceproximity`](https://developer.mozilla.org/docs/Web/Events/deviceproximity) and [`userproximity`](https://developer.mozilla.org/docs/Web/Events/userproximity) events in particular, have been disabled by default with Firefox 62 due to concerns over user privacy and [same-origin policy](https://developer.mozilla.org/docs/Web/Security/Same-origin_policy) violations.
 

@@ -15,6 +15,8 @@ references:
       title: "Intent to unship: getPropertyCSSValue-related interfaces Rect, RGBColor, CSSValue, CSSPrimitiveValue and CSSValueList"
 aliases:
     - "/en-CA/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the obsolete [`getPropertyCSSValue`](https://developer.mozilla.org/docs/Web/API/CSSStyleDeclaration/getPropertyCSSValue) method on the `CSSStyleDeclaration` interface, deprecated in [Firefox 61](https://www.fxsitecompat.dev/en-CA/docs/2018/cssstyledeclaration-getpropertycssvalue-has-been-deprecated/), has been removed with Firefox 62. The standard [`getPropertyValue`](https://developer.mozilla.org/docs/Web/API/CSSStyleDeclaration/getPropertyValue) method should be used instead. Given that Google Chrome has already [removed the support](https://groups.google.com/a/chromium.org/d/topic/blink-dev/3VmxWFzcyJc/discussion) back in 2014, the compatibility risk should be very low at this time.
 

@@ -13,6 +13,8 @@ references:
       title: "Bug 1397151 - Remove moz-chunked-text support from XHR"
 aliases:
     - "/en-CA/docs/2015/prefixed-xmlhttprequest-response-types-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the non-standard, `moz`-prefixed values returned by the [`XMLHttpRequest.prototype.responseType`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType) property, notably `moz-blob` and `moz-chunked-text`, has been removed with Firefox 58 after [Telemetry](https://telemetry.mozilla.org/) proved the low usage rates. `moz-chunked-arraybuffer` is still available at the time of this writing, but web developers are discouraged from using the non-standard type.
 

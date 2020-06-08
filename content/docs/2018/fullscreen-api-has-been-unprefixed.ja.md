@@ -19,6 +19,8 @@ references:
       title: "Bug 1504946 - Deprecate moz-prefixed fullscreen API"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/uizXjqHDmQ8/discussion"
       title: "Intent to ship: Unprefixed Fullscreen API"
+supported_tools:
+  firefox_extension: true
 ---
 何年にもわたるクロスブラウザー互換性向上の取り組みを経て、接頭辞なしの [Fullscreen API](https://developer.mozilla.org/docs/Web/API/Fullscreen_API) が Firefox 64 ですべてのチャンネルにおいてようやく初期設定有効となりました。前回の接頭辞を外す試みは [Firefox 47](https://www.fxsitecompat.dev/ja/docs/2016/fullscreen-api-has-been-unprefixed-in-non-release-builds/) で行われましたが、Nightly チャンネルを除いてすぐに取り消されていました。今後 `moz` 接頭辞付き API は廃止予定とみなされ、将来的に削除されます。
 

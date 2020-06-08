@@ -9,5 +9,7 @@ references:
       title: "Bug 1591968 - Consider removing window.mozPaintCount."
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/sZbx3Q2hIpA/discussion"
       title: "Intent to unship: window.mozPaintCount."
+supported_tools:
+  firefox_extension: true
 ---
 非標準の [`window.mozPaintCount`](https://developer.mozilla.org/docs/Web/API/Window/mozPaintCount) プロパティが Firefox 72 で廃止されました。この API は他のどのブラウザーにも実装されていないため、ブラウザー判別目的で使われていない限り互換性リスクは非常に低いはずです。

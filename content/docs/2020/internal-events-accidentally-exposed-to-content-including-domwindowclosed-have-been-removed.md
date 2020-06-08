@@ -7,6 +7,8 @@ releases: ["79"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1557407"
       title: "Bug 1557407 - Don't expose the `DOMWindowClosed` event to content"
+supported_tools:
+  firefox_extension: true
 ---
 A Firefox developer noticed that more than a dozen of non-standard, internal events had been exposed to the web, mostly accidentally, but some were for testing purposes. As of Firefox 79, these events are no longer available to web content:
 

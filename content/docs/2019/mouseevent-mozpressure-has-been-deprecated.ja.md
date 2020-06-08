@@ -9,5 +9,7 @@ references:
       title: "Bug 1165211 - Deprecate MouseEvent.mozPressure"
 aliases:
     - "/ja/docs/2015/mouseevent-mozpressure-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 `MouseEvent` インターフェイス上の `mozPressure` プロパティが廃止予定となり、近い将来削除されることとなりました。Firefox 68 は、ページ上でこのプロパティが見つかった場合、コンソールに廃止予定の警告を表示します。代わりに標準の [`PointerEvent.pressure`](https://developer.mozilla.org/docs/Web/API/PointerEvent/pressure) プロパティを使用してください。これは Firefox 59 以降使用可能となっている Pointer Events API に含まれています。

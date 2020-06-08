@@ -9,5 +9,7 @@ references:
       title: "Bug 801545 - Remove obsolete attribute: DocumentType.internalSubset"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/u32smeY40Xw/discussion"
       title: "Intent to unship: DocumentType.internalSubset"
+supported_tools:
+  firefox_extension: true
 ---
 [`document.doctype`](https://developer.mozilla.org/docs/Web/API/Document/doctype) 上で参照できた古く無名の `DocumentType.internalSubset` プロパティが、DOM 仕様から除かれたため削除されました。

@@ -8,5 +8,7 @@ statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=842372"
       title: "Bug 842372 – Make getUserData and setUserData ChromeOnly"
+supported_tools:
+  firefox_extension: true
 ---
 The [`Node.getUserData`](https://developer.mozilla.org/docs/Web/API/Node.getUserData) and [`Node.setUserData`](https://developer.mozilla.org/docs/Web/API/Node.setUserData) methods are no longer available from Web contents. [`Element.dataset`](https://developer.mozilla.org/docs/Web/API/Element.dataset) or [`WeakMap`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap) can be used instead.

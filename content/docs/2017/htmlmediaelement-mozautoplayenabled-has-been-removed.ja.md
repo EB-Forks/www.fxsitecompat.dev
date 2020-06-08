@@ -7,6 +7,8 @@ releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1336400"
       title: "Bug 1336400 - Remove HTMLMediaElement::mozAutoplayEnabled"
+supported_tools:
+  firefox_extension: true
 ---
 ブラウザー内でメディアの自動再生が有効になっているかどうかを返す、[`HTMLMediaElement`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement) インターフェイス上の非標準 `mozAutoplayEnabled` 真偽値プロパティは、標準化されることがなかったため、Firefox 59 で削除されました。
 

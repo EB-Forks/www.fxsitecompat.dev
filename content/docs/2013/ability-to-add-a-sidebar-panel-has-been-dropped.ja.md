@@ -8,6 +8,8 @@ statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=691647"
       title: "Bug 691647 – clean up nsISidebar (remove window.sidebar.addPanel/addPersistentPanel)"
+supported_tools:
+  firefox_extension: true
 ---
 `window.sidebar.addPanel` と `window.sidebar.addPersistentPanel` の対応が削除されました。これらのメソッドは、ウェブパブリッシャーが自社コンテンツをブラウザーのサイドバーパネルとして統合できるようにしていた Netscape 由来 API の一部でした。これらは標準化されず、めったに使用されず、ブラウザー側の対応も不十分なままでした。他のどのブラウザーもこれらのメソッドを実装していません。
 

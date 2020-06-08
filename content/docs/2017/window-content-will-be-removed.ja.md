@@ -15,6 +15,8 @@ references:
       title: "Intent to unship: Visibility of window.content to untrusted code"
 aliases:
     - "/ja/docs/2017/window-content-has-been-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 非標準の [`window.content`](https://developer.mozilla.org/docs/Web/API/Window/content) オブジェクトは Firefox Nightly 57 以降ウェブコンテンツから使用できなくなりました。[Telemetry](https://telemetry.mozilla.org/) で使用頻度が低いことが確認され次第、他のチャンネルからも削除されます。
 

@@ -9,6 +9,8 @@ references:
       title: "Bug 726378 – Unprefix IndexedDB"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=769571"
       title: "Bug 769571 – Unprefix battery and vibrator APIs"
+supported_tools:
+  firefox_extension: true
 ---
 The [IndexedDB](https://developer.mozilla.org/docs/Web/API/IndexedDB_API) API has been unprefixed. Now you can use the standard [`indexedDB`](https://developer.mozilla.org/docs/Web/API/IDBEnvironment/indexedDB) object instead of `mozIndexedDB`.
 

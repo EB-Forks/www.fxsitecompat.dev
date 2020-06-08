@@ -9,6 +9,8 @@ references:
       title: "Bug 1632447 - Disable window.{external|sidebar}.AddSearchProvider by preference"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/vSV-gg5621k/discussion"
       title: "Intent to unship: window.external.AddSearchProvider"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 78 以降、`window.external.AddSearchProvider` とそのエイリアスである `window.sidebar.AddSearchProvider` は、[HTML 仕様](https://html.spec.whatwg.org/multipage/obsolete.html#external) に従い、何もしないダミー関数となります。この Internet Explorer 由来の旧式メソッドは [Firefox 65](https://www.fxsitecompat.dev/ja/docs/2018/window-sidebar-and-window-external-addsearchprovider-have-been-deprecated/) 以降廃止予定となっていました。Google は 2016 年に [Chrome 54](https://www.chromestatus.com/feature/5672001305837568) で既にこれをダミー関数としており、他のモダンブラウザーは非対応です。
 

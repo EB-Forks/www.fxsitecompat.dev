@@ -9,6 +9,8 @@ references:
       title: "Bug 726378 – Unprefix IndexedDB"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=769571"
       title: "Bug 769571 – Unprefix battery and vibrator APIs"
+supported_tools:
+  firefox_extension: true
 ---
 [IndexedDB](https://developer.mozilla.org/docs/Web/API/IndexedDB_API) API から接頭辞が外れました。今後は `mozIndexedDB` ではなく標準の [`indexedDB`](https://developer.mozilla.org/docs/Web/API/IDBEnvironment/indexedDB) オブジェクトを使用できます。
 

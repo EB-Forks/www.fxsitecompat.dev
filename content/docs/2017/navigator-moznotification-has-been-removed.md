@@ -9,5 +9,7 @@ references:
       title: "Bug 952453 - Remove mozNotification (DesktopNotification) API"
 aliases:
     - "/en-CA/docs/2015/navigator-moznotification-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard [`navigator.mozNotification`](https://developer.mozilla.org/docs/Web/API/Navigator/mozNotification) object, available only on Firefox for Android and deprecated since Firefox 22, has been removed with Firefox 59. Use the standard [Notifications API](https://developer.mozilla.org/docs/Web/API/Notifications_API) instead.

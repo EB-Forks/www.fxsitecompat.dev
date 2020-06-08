@@ -12,6 +12,8 @@ references:
       title: "Bug 1483220 - Camera not found trying to stream on Facebook"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/o_0RoYoCmM4/discussion"
       title: "Intent to unship: URL.createObjectURL(MediaStream)"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 62 以降、[`URL.createObjectURL`](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) 静的メソッドは [`MediaStream`](https://developer.mozilla.org/docs/Web/API/MediaStream) オブジェクトを引数として受け付けなくなりました。現在の仕様によれば、`Blob` あるいは `MediaSource` オブジェクトのみ受け付けられます。
 

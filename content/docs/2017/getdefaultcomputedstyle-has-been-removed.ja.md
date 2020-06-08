@@ -10,6 +10,8 @@ references:
       title: "Bug 1355683 - Consider removing getDefaultComputedStyle"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/dGDkR65Ffa4/discussion"
       title: "Intent to unship: Window.getDefaultComputedStyle"
+supported_tools:
+  firefox_extension: true
 ---
 ブラウザーによる要素上の既定計算値を返す非標準の [`window.getDefaultComputedStyle`](https://developer.mozilla.org/docs/Web/API/Window/getDefaultComputedStyle) メソッドが Firefox 55 で削除されました。これは、似たような [`getComputedStyle`](https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle) メソッドと異なり、CSSOM 仕様の一部として標準化されたり他のブラウザーに実装されたりすることはありませんでした。
 

@@ -7,5 +7,7 @@ releases: ["33", "38-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1036444"
       title: "Bug 1036444 – Remove the NS_TOUCH_ENTER and NS_TOUCH_LEAVE events"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the [`touchenter`](https://developer.mozilla.org/docs/Web/Events/touchenter) and [`touchleave`](https://developer.mozilla.org/docs/Web/Events/touchleave) events has been removed due to the removal from the [`TouchEvent`](https://developer.mozilla.org/docs/Web/API/TouchEvent) spec.

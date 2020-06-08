@@ -9,5 +9,7 @@ references:
       title: "Bug 1558387 - Remove DOMError constructor"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/6yQtQoNeR-s/discussion"
       title: "Intent to unship: DOMError"
+supported_tools:
+  firefox_extension: true
 ---
 非標準となり、すべてのインスタンスが `DOMException` に置き換えられた [Firefox 58](https://www.fxsitecompat.dev/ja/docs/2017/domerror-has-been-replaced-with-domexception/) 以降廃止予定となっていた `DOMError` インターフェイスが、Firefox 69 で削除されました。Mozilla の Telemetry によれば現在の使用率はほぼゼロであり、削除の互換性リスクは低いはずです。

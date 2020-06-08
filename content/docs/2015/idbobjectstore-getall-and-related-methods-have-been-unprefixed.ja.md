@@ -13,5 +13,7 @@ references:
       title: "Intent to ship: IDB getAll/getAllKeys/openKeyCursor"
 aliases:
     - "/ja/docs/2015/idbobjectstore-getall-and-related-methods-will-be-unprefixed/"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 44 で `IDBObjectStore.mozGetAll`、`IDBIndex.mozGetAll`、`IDBIndex.mozGetAllKeys` の各メソッドから接頭辞が外れました。それらの接頭辞なし版となる `IDBObjectStore.getAll`、`IDBIndex.getAll`、`IDBIndex.getAllKeys` は Firefox 27 で実装され、使うには隠し設定が必要でしたが、この変更により初期設定で有効化されました。

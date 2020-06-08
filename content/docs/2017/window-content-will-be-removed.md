@@ -15,6 +15,8 @@ references:
       title: "Intent to unship: Visibility of window.content to untrusted code"
 aliases:
     - "/en-CA/docs/2017/window-content-has-been-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard [`window.content`](https://developer.mozilla.org/docs/Web/API/Window/content) object is no longer available from web content on Firefox Nightly 57 and later. It will be removed from other channels as well once [Telemetry](https://telemetry.mozilla.org/) proves low usage.
 

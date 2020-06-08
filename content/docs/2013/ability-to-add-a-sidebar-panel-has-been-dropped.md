@@ -8,6 +8,8 @@ statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=691647"
       title: "Bug 691647 – clean up nsISidebar (remove window.sidebar.addPanel/addPersistentPanel)"
+supported_tools:
+  firefox_extension: true
 ---
 `window.sidebar.addPanel` and `window.sidebar.addPersistentPanel` are no longer supported. These methods were a part of a Netscape-derived API which allowed Web publishers to integrate their contents as sidebar panels of the browser. They were not standardized, rarely used, and not very well supported. No other browsers have implemented these.
 

@@ -17,6 +17,8 @@ references:
       title: "mozilla.dev.webapps: alternatives to desktop/Android web runtimes"
 aliases:
     - "/en-CA/docs/2016/web-app-runtime-will-be-removed-from-firefox-for-desktop-and-android/"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard `navigator.mozApps` [Open Web Apps JavaScript API](https://developer.mozilla.org/Apps/Build/JavaScript_API) and [Web App Runtime](https://developer.mozilla.org/Apps/Build/Architecture), that allowed Web applications to be installed and run on the user's device like native applications, have been removed from Firefox 47 for [desktop](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_desktop) and [Android](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_android).
 

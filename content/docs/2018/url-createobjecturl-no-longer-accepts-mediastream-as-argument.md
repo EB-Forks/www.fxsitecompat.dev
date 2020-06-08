@@ -12,6 +12,8 @@ references:
       title: "Bug 1483220 - Camera not found trying to stream on Facebook"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/o_0RoYoCmM4/discussion"
       title: "Intent to unship: URL.createObjectURL(MediaStream)"
+supported_tools:
+  firefox_extension: true
 ---
 As of Firefox 62, the [`URL.createObjectURL`](https://developer.mozilla.org/docs/Web/API/URL/createObjectURL) static method no longer accepts a [`MediaStream`](https://developer.mozilla.org/docs/Web/API/MediaStream) object as the argument. According to the current specs, only a `Blob` or `MediaSource` object can be accepted.
 

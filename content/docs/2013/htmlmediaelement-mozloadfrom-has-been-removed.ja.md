@@ -7,5 +7,7 @@ releases: ["24", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=877135"
       title: "Bug 877135 – Remove mozLoadFrom"
+supported_tools:
+  firefox_extension: true
 ---
 [`HTMLMediaElement`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement) インターフェイスから `mozLoadFrom` メソッドが削除されました。これは、他のメディア要素からデータを読み込むために使われる、Mozilla の非標準拡張仕様でした。

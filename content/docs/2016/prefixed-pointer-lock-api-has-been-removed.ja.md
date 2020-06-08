@@ -7,6 +7,8 @@ releases: ["50", "52-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=991899"
       title: "Bug 991899 - Unprefix pointer lock"
+supported_tools:
+  firefox_extension: true
 ---
 [Pointer Lock API](https://developer.mozilla.org/docs/Web/API/Pointer_Lock_API) の仕様が安定したと思われることから、この API から接頭辞が外されました。これには、[`Document.pointerLockElement`](https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement) プロパティ、[`Element.requestPointerLock`](https://developer.mozilla.org/docs/Web/API/Element/requestPointerLock)、[`Document.exitPointerLock`](https://developer.mozilla.org/docs/Web/API/Document/exitPointerLock) 両メソッド、[`pointerlockchange`](https://developer.mozilla.org/docs/Web/Events/pointerlockchange)、[`pointerlockerror`](https://developer.mozilla.org/docs/Web/Events/pointerlockerror) 両イベントが含まれます。
 

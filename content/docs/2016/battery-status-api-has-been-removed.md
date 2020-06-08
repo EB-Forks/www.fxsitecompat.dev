@@ -11,6 +11,8 @@ references:
       title: "Bug 1441976 - Restrict BatteryManager to chrome script"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/5U8NHoUY-1k/discussion"
       title: "Removing the Battery Status API?"
+supported_tools:
+  firefox_extension: true
 ---
 As of Firefox 52, the [Battery Status API](https://developer.mozilla.org/docs/Web/API/Battery_Status_API) is no longer available from Web content for privacy reasons, where it could be used by remote trackers for user fingerprinting. It's unknown if there were legitimate use cases of the API.
 

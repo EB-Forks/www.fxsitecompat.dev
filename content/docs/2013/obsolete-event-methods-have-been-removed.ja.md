@@ -11,6 +11,8 @@ references:
       title: "Bug 874003 – Remove preventBubble and preventCapture"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=726933"
       title: "Bug 726933 – Warn about getPreventDefault being deprecated"
+supported_tools:
+  firefox_extension: true
 ---
 [`window`](https://developer.mozilla.org/docs/Web/API/window) オブジェクト上の [`routeEvent`](https://developer.mozilla.org/docs/Web/API/window.routeEvent)、`enableExternalCapture`、`disableExternalCapture` メソッドが削除されました。これらは Firefox 3 以降廃止予定となっていた非標準の Netscape 由来 API で、既に no-op (何も行わない) 実装となっていました。一方、[`captureEvents`](https://developer.mozilla.org/docs/Web/API/window.captureEvents) と [`releaseEvents`](https://developer.mozilla.org/docs/Web/API/window.releaseEvents) は後方互換性のために残されています。Google による調査で、多くのサイトが機能判別のためこれらのメソッドに依存していることが明らかになったためです。
 

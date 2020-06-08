@@ -7,6 +7,8 @@ releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=862147"
       title: "Bug 862147 - remove window.external.addSearchEngine"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard `window.sidebar.addSearchEngine` method and its alias `window.external.addSearchEngine` have been removed with Firefox 59. The ability to install legacy Sherlock search plug-ins had already been [removed with Firefox 44](https://www.fxsitecompat.dev/en-CA/docs/2015/sherlock-search-plug-ins-are-no-longer-supported/), while [OpenSearch plug-ins](https://developer.mozilla.org/docs/Web/OpenSearch) can still be installed using the `window.external.AddSearchProvider` method derived from Internet Explorer.
 

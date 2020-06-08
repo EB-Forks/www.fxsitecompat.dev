@@ -17,6 +17,8 @@ references:
       title: "mozilla.dev.webapps: alternatives to desktop/Android web runtimes"
 aliases:
     - "/ja/docs/2016/web-app-runtime-will-be-removed-from-firefox-for-desktop-and-android/"
+supported_tools:
+  firefox_extension: true
 ---
 ウェブアプリケーションをネイティブアプリケーションのようにユーザーの端末へインストールし実行することを可能にしていた、非標準の `navigator.mozApps` [Open Web Apps JavaScript API](https://developer.mozilla.org/Apps/Build/JavaScript_API) と [Web App Runtime](https://developer.mozilla.org/Apps/Build/Architecture) が、[デスクトップ](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_desktop) 版と [Android](https://developer.mozilla.org/Marketplace/Options/Open_web_apps_for_android) 版の Firefox 47 から削除されました。
 

@@ -12,6 +12,8 @@ references:
       title: "Bug 1481140 - Firefox 61.0.1 (64 Bit) does not record correct file modification time and date in OneDrive"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/l-WY9qvfUNg/discussion"
       title: "Intent to unship: File.lastModifiedDate"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard [`File.prototype.lastModifiedDate`](https://developer.mozilla.org/docs/Web/API/File/lastModifiedDate) property, [deprecated since Firefox 49](https://www.fxsitecompat.dev/en-CA/docs/2016/file-lastmodifieddate-has-been-deprecated/), has been removed with Firefox 61. According to Mozilla's [Telemetry](https://telemetry.mozilla.org/), it's currently used in 0.01% of the pages. Use the standard [`lastModified`](https://developer.mozilla.org/docs/Web/API/File/lastModified) property instead.
 

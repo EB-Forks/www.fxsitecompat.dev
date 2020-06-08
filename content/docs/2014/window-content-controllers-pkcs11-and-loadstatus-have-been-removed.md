@@ -18,6 +18,8 @@ references:
       title: "Bug 1010137 – RAP application does not start in Firefox 29"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1010577"
       title: "Bug 1010577 – Add back window.controllers for site compatibility"
+supported_tools:
+  firefox_extension: true
 ---
 As part of the ongoing effort to standardize global objects, some properties have been removed from [`window`](https://developer.mozilla.org/docs/Web/API/window). The `_content` property is no longer available from Web content in favour of [`window.content`](https://developer.mozilla.org/docs/Web/API/window.content). The [`window.pkcs11`](https://developer.mozilla.org/docs/Web/API/window.pkcs11) property has returned `null` since Firefox 3.0.14 for security reasons. The non-standard [`controllers`](https://developer.mozilla.org/docs/Web/API/window.controllers) property and `LoadStatus` interface are also no longer available on `window`.
 

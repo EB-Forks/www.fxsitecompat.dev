@@ -9,5 +9,7 @@ references:
       title: "Bug 1460481 - Disable registerContentHandler() in stable"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/jeTDLz38_RE/discussion"
       title: "Intent to unship: navigator.registerContentHandler()"
+supported_tools:
+  firefox_extension: true
 ---
 [Firefox 59](https://www.fxsitecompat.dev/ja/docs/2018/navigator-registercontenthandler-has-been-deprecated/) 以降廃止予定となっていた [`navigator.registerContentHandler`](https://developer.mozilla.org/docs/Web/API/Navigator/registerContentHandler) メソッドが Firefox 62 で削除されました。これは HTML 仕様で標準化されていたものの、他のどのブラウザーもこの機能に対応しておらず、Firefox の実装も標準に準拠していませんでした。ウェブフィードの人気が低下していることから、削除に伴うリスクは少ないはずです。

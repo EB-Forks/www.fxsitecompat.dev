@@ -11,6 +11,8 @@ references:
       title: "Intent to unship: SVGViewElement.viewTarget"
 aliases:
     - "/ja/docs/2018/svgviewelement-prototype-viewtarget-has-been-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 [`SVGViewElement`](https://developer.mozilla.org/docs/Web/API/SVGViewElement) 上の `viewTarget` プロパティが Firefox 61 で削除されました。これは SVG 1.1 仕様で定義されていましたが、使用例がないことから SVG 2 では削除されています。また、Firefox では正しい実装が行われておらず、単にエラーが返されるだけでした。
 

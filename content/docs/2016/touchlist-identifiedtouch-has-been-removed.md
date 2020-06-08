@@ -9,5 +9,7 @@ references:
       title: "Bug 1188539 - Remove the deprecated TouchList::identifiedTouch method"
 aliases:
     - "/en-CA/docs/2015/touchlist-identifiedtouch-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard, deprecated [`TouchList.identifiedTouch`](https://developer.mozilla.org/docs/Web/API/TouchList/identifiedTouch) method has been removed. Use the standard [`item`](https://developer.mozilla.org/docs/Web/API/TouchList/item) method instead.

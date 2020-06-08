@@ -10,6 +10,8 @@ references:
       title: "Bug 1610819 - Remove support for creating some non-standard event types"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1623223"
       title: "Bug 1623223 - CreateEvent regression"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 74 has removed the support for creating several non-standard events with [`document.createEvent()`](https://developer.mozilla.org/docs/Web/API/Document/createEvent). These event types include:
 

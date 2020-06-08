@@ -8,5 +8,7 @@ statuses: "breaking"
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=912322"
       title: "Bug 912322 – document.getAnonymous* should not be available to web content"
+supported_tools:
+  firefox_extension: true
 ---
 The following methods implemented on the [XBL DOM interface](https://developer.mozilla.org/docs/XBL/XBL_1.0_Reference/DOM_Interfaces) have been removed from the [`Document`](https://developer.mozilla.org/docs/Web/API/Document) interface: `getAnonymousNodes`, `getAnonymousElementByAttribute`, `getBindingParent`, and `loadBindingDocument`.

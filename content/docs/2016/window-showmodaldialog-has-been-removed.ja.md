@@ -14,6 +14,8 @@ references:
       title: "Intent to unship: window.showModalDialog"
 aliases:
     - "/ja/docs/2015/window-showmodaldialog-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 [Firefox 28 以降](https://www.fxsitecompat.dev/ja/docs/2013/showmodaldialog-has-been-deprecated/) 廃止予定となっており、[Firefox 28 以降](https://www.fxsitecompat.dev/ja/docs/2013/showmodaldialog-has-been-deprecated/) ブラウザーが *e10s* と呼ばれるマルチプロセスモードでの実行時には無効化される、レガシーな [`window.showModalDialog`](https://developer.mozilla.org/docs/Web/API/Window/showModalDialog) メソッドが、*e10s* のデフォルト有効化に伴い Firefox 48 以降使用できなくなりました。
 

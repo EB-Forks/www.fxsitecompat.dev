@@ -9,5 +9,7 @@ references:
       title: "Bug 1133172 - remove SVGSVGElement.{pixel,screenPixel}UnitToMillimeter{X,Y}"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/-Vhlz6uEVOA/discussion"
       title: " Intent to unship: SVGSVGElement.{pixel, screenPixel}UnitToMillimeter{X, Y} "
+supported_tools:
+  firefox_extension: true
 ---
 The `pixelUnitToMillimeterX`, `pixelUnitToMillimeterY`, `screenPixelToMillimeterX` and `screenPixelToMillimeterY` properties have been removed from the [`SVGSVGElement`](https://developer.mozilla.org/docs/Web/API/SVGSVGElement) interface. Those were defined in the SVG 1.1 spec but removed with SVG 2 due to lack of use. Given that [Google Chrome 47](https://www.chromestatus.com/feature/5478103916740608) shipped in December 2015 has already removed them, the compatibility risk should be very low.

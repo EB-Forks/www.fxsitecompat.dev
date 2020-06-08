@@ -7,6 +7,8 @@ releases: ["64", "68-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1435789"
       title: "Bug 1435789 - Deprecate RTCIceCandidateStats.mozLocalTransport and add protocol and relayProtocol"
+supported_tools:
+  firefox_extension: true
 ---
 [`RTCPeerConnection.getStats()`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/getStats) や類似のメソッドによって返される `RTCIceCandidateStats` ディクショナリー上の非標準プロパティ `mozLocalTransport` が廃止予定となり、近い将来削除されることとなりました。標準化された `relayProtocol` プロパティを代わりに使用してください。
 

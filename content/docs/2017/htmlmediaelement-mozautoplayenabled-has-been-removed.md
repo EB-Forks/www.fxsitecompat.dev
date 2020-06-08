@@ -7,6 +7,8 @@ releases: ["59", "60-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1336400"
       title: "Bug 1336400 - Remove HTMLMediaElement::mozAutoplayEnabled"
+supported_tools:
+  firefox_extension: true
 ---
 The non-standard `mozAutoplayEnabled` boolean property on the [`HTMLMediaElement`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement) interface, that returns if media autoplay is enabled in the browser, has been removed with Firefox 59 as it has never been standardized.
 

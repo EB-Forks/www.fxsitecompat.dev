@@ -18,6 +18,8 @@ references:
       title: "Bug 1010137 – RAP application does not start in Firefox 29"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1010577"
       title: "Bug 1010577 – Add back window.controllers for site compatibility"
+supported_tools:
+  firefox_extension: true
 ---
 グローバルオブジェクトを標準化する現在進行中の取り組みの一環として、[`window`](https://developer.mozilla.org/docs/Web/API/window) からいくつかのプロパティが削除されました。`_content` プロパティは [`window.content`](https://developer.mozilla.org/docs/Web/API/window.content) と重複しており、ウェブコンテンツから使用できなくなりました。[`window.pkcs11`](https://developer.mozilla.org/docs/Web/API/window.pkcs11) プロパティはセキュリティ上の理由から Firefox 3.0.14 以降 `null` を返していました。非標準の [`controllers`](https://developer.mozilla.org/docs/Web/API/window.controllers) プロパティと `LoadStatus` インターフェイスも `window` 上で参照できなくなりました。
 

@@ -9,5 +9,7 @@ references:
       title: "Bug 872934 – convert style sheet change event interfaces to Web IDL and stick [NoInterfaceObject] on them"
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=916871"
       title: "Bug 916871 – Remove classinfo bits for CSSGroupRuleRuleList"
+supported_tools:
+  firefox_extension: true
 ---
 グローバルオブジェクトを標準化する現在進行中の取り組みの一環として、非標準のスタイルシート変更イベントインターフェイスである `StyleRuleChangeEvent`、`StyleSheetApplicableStateChangeEvent`、`StyleSheetChangeEvent`がウェブコンテンツから利用できなくなりました。[`CSSRuleList`](https://developer.mozilla.org/docs/Web/API/CSSRuleList) の実装詳細である `CSSGroupRuleRuleList` インターフェイスも削除されました。

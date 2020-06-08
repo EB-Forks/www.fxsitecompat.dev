@@ -12,6 +12,8 @@ references:
       title: "Bug 798821 – Disable touch events on Windows for devices that do not support touch input"
 aliases:
     - "/ja/docs/2012/moztouch-events-were-removed-in-favor-of-the-standard-touch-events/"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox の試験実装で廃止予定となっていた [`MozTouch*` API](https://developer.mozilla.org/docs/DOM/Touch_events_%28Mozilla_experimental%29) (`MozTouchDown`、`MozTouchMove`、`MozTouchUp` イベント) が削除されました。今後は [W3C 標準のタッチイベント](https://developer.mozilla.org/docs/DOM/Touch_events) を使用してください。
 

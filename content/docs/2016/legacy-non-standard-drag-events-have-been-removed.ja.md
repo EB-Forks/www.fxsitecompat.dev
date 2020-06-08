@@ -12,6 +12,8 @@ references:
       title: "Intent to remove: support for old drag events"
 aliases:
     - "/ja/docs/2015/legacy-non-standard-drag-events-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 後方互換性のために残されていた非標準ドラッグ関連イベントへの対応が Firefox 50 で削除されました。`draggesture`、`dragdrop` イベントはそれぞれ標準の [`dragstart`](https://developer.mozilla.org/docs/Web/Events/dragstart)、[`drop`](https://developer.mozilla.org/docs/Web/Events/drop) イベントに置き換えてください。一方、[`dragexit`](https://developer.mozilla.org/docs/Web/Events/dragexit) イベントは標準化されたため、それに関して心配する必要はなくなりました。
 

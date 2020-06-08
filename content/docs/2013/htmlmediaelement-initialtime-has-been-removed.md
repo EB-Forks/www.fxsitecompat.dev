@@ -7,5 +7,7 @@ releases: ["23", "24-esr"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=742537"
       title: "Bug 742537 – Remove HTMLMediaElement.initialTime"
+supported_tools:
+  firefox_extension: true
 ---
 [`HTMLMediaElement`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement)'s `initialTime` property is no longer available, due to the removal from the spec.

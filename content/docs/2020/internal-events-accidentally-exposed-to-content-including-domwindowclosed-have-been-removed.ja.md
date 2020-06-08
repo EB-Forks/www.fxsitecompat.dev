@@ -7,6 +7,8 @@ releases: ["79"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=1557407"
       title: "Bug 1557407 - Don't expose the `DOMWindowClosed` event to content"
+supported_tools:
+  firefox_extension: true
 ---
 12 を超える非標準の内部イベントがウェブに露呈されていたことに Firefox 開発者が気が付きました。概して意図しないものでしたが、一部はテスト目的で実装されたものでした。Firefox 79 以降、これらのイベントはウェブコンテンツから使用できなくなります。
 

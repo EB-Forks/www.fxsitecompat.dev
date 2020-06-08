@@ -9,5 +9,7 @@ references:
       title: "Bug 1347073 - Get rid of UIEvent.isChar because no other browsers support it"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/IVcGOOeOThw/discussion"
       title: "Intent to remove UIEvent.isChar"
+supported_tools:
+  firefox_extension: true
 ---
 非標準の [`UIEvent.prototype.isChar`](https://developer.mozilla.org/docs/Web/API/UIEvent/isChar) プロパティが Firefox 55 で削除されました。これは macOS 以外のプラットフォームでは常に `false` を返しており、また他に対応しているブラウザーはありません。

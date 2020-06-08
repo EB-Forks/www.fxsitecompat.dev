@@ -11,6 +11,8 @@ references:
       title: "Intent to implement and ship: Blocking FTP subresources"
     - url: "https://blog.mozilla.org/security/2018/05/07/blocking-ftp-subresource-loads-within-non-ftp-documents-in-firefox-61/"
       title: "Blocking FTP subresource loads within non-FTP documents in Firefox 61 | Mozilla Security Blog"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox 61 以降、HTTP(S) ページによる FTP サーバーからのリソース読み込みがブロックされるようになります。このセキュリティ対策は主に `src="ftp://..."` を伴った `<img>`、`<script>`、`<iframe>` 要素に影響します。こうした FTP リソースは、ブラウザー内や FTP ページ内で直接開かれた場合は引き続き読み込むことが可能であり、FTP サーバーへのリンクも同様にブロックされません。[Google Chrome](https://www.chromestatus.com/feature/5709390967472128) が 2017 年 6 月に公開されたバージョン 59 で既にこの変更を行っていることから、互換性リスクは低いはずです。
 

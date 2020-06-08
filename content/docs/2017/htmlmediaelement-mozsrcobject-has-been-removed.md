@@ -9,5 +9,7 @@ references:
       title: "Bug 1183495 - Remove mozSrcObject alias to srcObject soon"
 aliases:
     - "/en-CA/docs/2015/htmlmediaelement-mozsrcobject-will-be-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 The prefixed `mozSrcObject` property on the [`HTMLMediaElement`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement) interface, deprecated since [Firefox 42](https://www.fxsitecompat.dev/en-CA/docs/2015/htmlmediaelement-srcobject-has-been-unprefixed/), has been removed with Firefox 58. Use the standard [`srcObject`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/srcObject) property instead.

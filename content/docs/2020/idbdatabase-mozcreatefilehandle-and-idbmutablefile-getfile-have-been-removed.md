@@ -11,6 +11,8 @@ references:
       title: "Bug 1607791 - Get rid of IDBMutableFile.getFile()"
 aliases:
   - "/en-CA/docs/2020/idbdatabase-mozcreatefilehandle-has-been-removed/"
+supported_tools:
+  firefox_extension: true
 ---
 In Firefox 74, 2 changes have been made to the [FileHandle API](https://developer.mozilla.org/docs/Web/API/File_Handle_API).
 

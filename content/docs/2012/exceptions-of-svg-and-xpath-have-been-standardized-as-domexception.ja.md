@@ -7,5 +7,7 @@ releases: ["16"]
 references:
     - url: "https://bugzilla.mozilla.org/show_bug.cgi?id=743888"
       title: "Bug 743888 – Replace SVGException and XPathException with DOMException"
+supported_tools:
+  firefox_extension: true
 ---
 例外の `SVGException` と `XPathException` は削除され、[`DOMException`](https://developer.mozilla.org/docs/Web/API/DOMException) に置き換えられました。

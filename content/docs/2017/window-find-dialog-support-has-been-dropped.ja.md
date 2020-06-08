@@ -11,6 +11,8 @@ references:
       title: "Bug 1348409 - Assertion failure: XRE_IsParentProcess() with window.find"
     - url: "https://groups.google.com/d/topic/mozilla.dev.platform/gn4364N4TlY/discussion"
       title: "window.find dialog feature broken in Firefox 53 (a.k.a., Late Intent to Unship: window.find's dialog support)"
+supported_tools:
+  firefox_extension: true
 ---
 Firefox では、[`window.find`](https://developer.mozilla.org/docs/Web/API/Window/find) メソッドを使って、ユーザーが現在開いているページ上の文字列を見つけられるようにするダイアログを開くことが可能でした。このダイアログは、[`window.showModalDialog`](https://www.fxsitecompat.dev/ja/docs/2016/window-showmodaldialog-has-been-removed/) と同様に、Firefox 48 で e10s と呼ばれているマルチプロセスモードが有効になって以降、機能していないことが判明しました。Firefox 53 以降、ブラウザー内で e10s が無効の場合にもこのダイアログは機能しません。
 

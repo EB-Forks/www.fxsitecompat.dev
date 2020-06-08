@@ -20,6 +20,8 @@ references:
       title: "Intent to unship: TLS 1.0 and TLS 1.1"
     - url: "https://hacks.mozilla.org/2019/05/tls-1-0-and-1-1-removal-update/"
       title: "TLS 1.0 and 1.1 Removal Update - Mozilla Hacks"
+supported_tools:
+  firefox_extension: true
 ---
 The support for the [Transport Layer Security](https://developer.mozilla.org/docs/Web/Security/Transport_Layer_Security) (TLS) protocol's version 1.0 and 1.1, deprecated since [Firefox 71](https://www.fxsitecompat.dev/en-CA/docs/2019/tls-1-0-and-1-1-are-now-deprecated-disabled-in-nightly/), has been removed from all the channels as of Firefox 74. All major browsers are going to drop the support for the older versions of TLS in early 2020.
 
